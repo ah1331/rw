@@ -1,0 +1,9 @@
+Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration (Days)
+1,2024-01-01,101,Harry Potter,Education,5
+2,2024-01-01,102,Data Science 101,Education,7
+3,2024-01-01,103,Harry Potter,Fiction,10000
+4,2024-02-05,104,Machine Learning,Education,6
+5,2024-03-10,105,The Alchemist,Fiction,8
+6,2024-03-15,106,Deep Learning,Education,9
+7,2024-04-10,107,Atomic Habits,Self-help,4
+8,2024-04-10,108,Rich Dad Poor Dad,Finance,6
