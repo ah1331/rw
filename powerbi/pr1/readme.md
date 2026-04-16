@@ -67,3 +67,27 @@
 ### 12. Refresh Simulation
 - Simulated adding a new monthly file to verify auto-load
 - Confirmed all transformations persist after refresh
+
+---
+
+## Screenshots
+
+### Power Query View 1
+![Power Query View 1](<Screenshot 2026-04-16 190007.png>)
+
+### Power Query View 2
+![Power Query View 2](<Screenshot 2026-04-16 190035.png>)
+
+### Power Query View 3
+![Power Query View 3](<Screenshot 2026-04-16 190049.png>)
+
+### Power Query View 4
+![Power Query View 4](<Screenshot 2026-04-16 190108.png>)
+
+### Power Query View 5
+![Power Query View 5](<Screenshot 2026-04-16 190122.png>)
+
+### Power Query View 6
+![Power Query View 6](<Screenshot 2026-04-16 190133.png>)
+
+
