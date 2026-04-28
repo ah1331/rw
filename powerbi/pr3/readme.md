@@ -187,6 +187,16 @@ Matrix tables are organized by:
 - **Values:** Various DAX measures (Sales, Profit, YTD, YoY, etc.)
 
 ---
+<img width="1186" height="643" alt="image" src="https://github.com/user-attachments/assets/b7784f14-d9b1-4e11-b900-1b3205332f59" />
+
+<img width="1080" height="599" alt="image" src="https://github.com/user-attachments/assets/08d88886-8551-4786-882b-449c39425ed9" />
+
+<img width="1004" height="540" alt="image" src="https://github.com/user-attachments/assets/7331d0d9-24a7-496a-861a-e04b20acc8e3" />
+
+<img width="450" height="334" alt="image" src="https://github.com/user-attachments/assets/d4653059-8620-443c-981a-f5a587018db5" />
+
+
+
 
 
 
