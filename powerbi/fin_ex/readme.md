@@ -35,6 +35,9 @@ Built as part of a Power BI exam assignment (2.5–3 hours, 50 marks), this mult
 
 ### 🔹 1. Data Modeling & Cleaning
 
+<img width="1164" height="682" alt="image" src="https://github.com/user-attachments/assets/b43f567b-b7f1-470e-b7e6-b373c9da427f" />
+
+
 - Imported all four datasets into Power BI using Power Query
 - Established relationships between tables using `StudentID`
 - Cleaned column names, fixed data types, and handled null/missing values
