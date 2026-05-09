@@ -37,7 +37,7 @@ A real-world Power BI reporting solution built on a Star Schema data model. The 
 ## 🧩 Task Breakdown
 
 ### 🔹 Task 1 — Data Modeling
-
+![alt text](images/Screenshot%202026-05-09%20100340.png)
 Constructed a clean Star Schema with `Sales_Fact` at the center, connected to all surrounding dimension tables.
 
 **Relationships:**
@@ -162,6 +162,7 @@ TOTALYTD(SUM('Sales_Fact'[TotalAmount]), 'Date_Dim'[Date])
 ### 🔹 Task 4 — Dashboard Layout
 
 #### 📄 Page 1 — Sales Performance Overview
+![alt text](images/Screenshot%202026-05-09%20095814.png)
 
 The primary page displaying company-wide KPIs and overall sales trends.
 
@@ -178,6 +179,7 @@ The primary page displaying company-wide KPIs and overall sales trends.
 ---
 
 #### 📄 Page 2 — Customer Analysis
+![alt text](images/Screenshot%202026-05-09%20095855.png)
 
 Deep-dive into individual customer-level performance.
 
@@ -194,6 +196,7 @@ Deep-dive into individual customer-level performance.
 ---
 
 #### 📄 Page 3 — Product Analysis
+![alt text](images/Screenshot%202026-05-09%20095912.png)
 
 Product-level breakdown across all categories.
 
@@ -218,6 +221,7 @@ Product-level breakdown across all categories.
 
 
 #### 📄 Page 4 — Drillthrough Page
+![alt text](images/Screenshot%202026-05-09%20100225.png)
 
 Context-sensitive drillthrough for customer-level return analysis.
 
@@ -232,6 +236,7 @@ Context-sensitive drillthrough for customer-level return analysis.
 ---
 
 #### 📄 Page 5 — Tooltip Page
+![alt text](images/Screenshot%202026-05-09%20100251.png)
 
 A compact tooltip card that appears on hover across report visuals.
 
@@ -239,6 +244,13 @@ A compact tooltip card that appears on hover across report visuals.
 - Configured as a custom tooltip across all Sales Performance page visuals
 
 ---
+
+
+#### Mobile Layout 
+![alt text](images/image-1.png)
+![alt text](images/image-2.png)
+![alt text](images/image.png)
+![alt text](images/image-3.png)
 
 ## 📌 Key Insights
 
