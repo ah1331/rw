@@ -1,0 +1,1001 @@
+TransactionID,Date,ProductName,Category,Region,SalesChannel,Quantity,UnitPrice,TotalAmount,PaymentMode,CustomerID
+T00001,2/11/2025,Coffee,Groceries,West,Offline,8,4539.84,36318.72,UPI,C8148
+T00002,3/26/2025,Conditioner,Beauty,East,Online,6,2051,12306,Credit Card,C2045
+T00003,2/22/2024,Water Bottle,Home & Kitchen,East,Offline,10,1690.19,16901.9,Cash,C5290
+T00004,4/17/2024,Face Wash,Beauty,North,Offline,10,4085.46,40854.6,Credit Card,C1731
+T00005,4/12/2025,Eggs,Groceries,East,Online,6,2638.47,15830.82,Net Banking,C3364
+T00006,5/15/2024,Perfume,Beauty,North,Online,7,2021.07,14147.49,Cash,C4788
+T00007,1/6/2025,Lipstick,Beauty,South,Online,3,4244.36,12733.08,Credit Card,C7702
+T00008,2/6/2024,Jeans,Clothing,East,Offline,8,3845.96,30767.68,Credit Card,C3284
+T00009,2/3/2024,Eggs,Groceries,South,Online,7,3401.2,23808.4,Cash,C8120
+T00010,3/7/2024,Jacket,Clothing,North,Offline,2,1758.91,3517.82,Net Banking,C6545
+T00011,3/13/2024,Tablet,Electronics,East,Offline,8,3867.45,30939.6,Credit Card,C9114
+T00012,2/29/2024,Cookware Set,Home & Kitchen,South,Offline,1,1568.44,1568.44,Cash,C3086
+T00013,12/22/2024,Coffee,Groceries,South,Online,4,1746.06,6984.24,Cash,C9368
+T00014,11/13/2024,T-Shirt,Clothing,South,Offline,6,2135.43,12812.58,Credit Card,C9733
+T00015,4/19/2025,Conditioner,Beauty,West,Offline,9,889.42,8004.78,UPI,C3785
+T00016,1/2/2025,Headphones,Electronics,East,Online,4,880.3,3521.2,UPI,C7306
+T00017,11/12/2024,Smartphone,Electronics,East,Online,8,1581.12,12648.96,Net Banking,C5699
+T00018,3/3/2024,Chair,Home & Kitchen,South,Offline,2,2831.38,5662.76,UPI,C7818
+T00019,9/5/2024,Milk,Groceries,South,Offline,8,2268.91,18151.28,Credit Card,C7888
+T00020,2/7/2025,Cookware Set,Home & Kitchen,West,Offline,8,2722.11,21776.88,Net Banking,C7002
+T00021,3/7/2024,Jeans,Clothing,South,Offline,10,1266.71,12667.1,Cash,C8583
+T00022,5/13/2025,Mixer,Home & Kitchen,North,Online,1,4033.86,4033.86,Net Banking,C2308
+T00023,2/6/2024,Headphones,Electronics,East,Online,8,2012.11,16096.88,Cash,C1380
+T00024,4/30/2024,Smartphone,Electronics,North,Offline,10,788.62,7886.2,Net Banking,C8094
+T00025,4/8/2025,Tablet,Electronics,South,Online,10,3671.55,36715.5,UPI,C5841
+T00026,1/4/2024,Hoodie,Clothing,South,Offline,5,1379.21,6896.05,UPI,C8636
+T00027,1/9/2025,Shampoo,Beauty,West,Online,8,2287.82,18302.56,Cash,C9794
+T00028,2/12/2024,Mixer,Home & Kitchen,West,Offline,2,3770.85,7541.7,Net Banking,C5878
+T00029,1/17/2025,Mixer,Home & Kitchen,North,Offline,7,4242.45,29697.15,Credit Card,C3364
+T00030,3/1/2025,Eggs,Groceries,West,Online,5,1425.27,7126.35,Net Banking,C1221
+T00031,4/7/2024,Tablet,Electronics,East,Online,7,173.71,1215.97,UPI,C1674
+T00032,10/27/2024,Bread,Groceries,West,Offline,8,1249.97,9999.76,Cash,C2473
+T00033,9/14/2024,Smartphone,Electronics,South,Online,3,2217.43,6652.29,Cash,C4707
+T00034,1/21/2024,Shampoo,Beauty,East,Offline,4,3765.73,15062.92,Net Banking,C7992
+T00035,1/16/2025,T-Shirt,Clothing,North,Offline,5,4425.27,22126.35,Net Banking,C9515
+T00036,12/7/2024,Eggs,Groceries,North,Offline,6,1813.8,10882.8,Credit Card,C2266
+T00037,1/11/2024,Mixer,Home & Kitchen,North,Offline,3,1636.38,4909.14,UPI,C5788
+T00038,11/22/2024,Laptop,Electronics,East,Offline,7,417.6,2923.2,Credit Card,C4674
+T00039,1/27/2024,Lamp,Home & Kitchen,South,Online,5,1122.05,5610.25,Cash,C4819
+T00040,11/18/2024,Laptop,Electronics,East,Online,1,2737.17,2737.17,UPI,C4680
+T00041,9/2/2024,Milk,Groceries,North,Online,3,946.16,2838.48,Cash,C1456
+T00042,1/31/2024,Smart Watch,Electronics,East,Offline,4,831.1,3324.4,Cash,C5803
+T00043,5/1/2024,Hoodie,Clothing,North,Offline,2,1436.09,2872.18,Net Banking,C9853
+T00044,4/1/2025,Perfume,Beauty,North,Online,9,3227.73,29049.57,Net Banking,C4196
+T00045,5/19/2024,Shoes,Clothing,East,Online,2,2324.87,4649.74,Cash,C3049
+T00046,1/27/2024,Hoodie,Clothing,East,Online,4,3084.51,12338.04,Credit Card,C8629
+T00047,11/11/2024,Shoes,Clothing,North,Offline,4,374.09,1496.36,Cash,C6664
+T00048,6/7/2024,Cookware Set,Home & Kitchen,South,Offline,6,4850.46,29102.76,Credit Card,C2225
+T00049,4/9/2025,Tablet,Electronics,South,Offline,9,166.18,1495.62,Credit Card,C8088
+T00050,7/23/2024,Rice,Groceries,West,Online,1,3450.74,3450.74,Credit Card,C4308
+T00051,9/24/2024,Shoes,Clothing,West,Online,1,3829.89,3829.89,UPI,C7316
+T00052,2/19/2024,Smartphone,Electronics,West,Offline,3,247.05,741.15,Cash,C8124
+T00053,10/12/2024,Conditioner,Beauty,West,Online,2,2549.05,5098.1,Cash,C6070
+T00054,7/11/2024,Lamp,Home & Kitchen,South,Online,1,3738.89,3738.89,UPI,C5036
+T00055,8/27/2024,Smartphone,Electronics,North,Online,6,4399.25,26395.5,Cash,C2510
+T00056,2/8/2024,Coffee,Groceries,South,Online,1,1600.07,1600.07,Net Banking,C7439
+T00057,6/12/2024,Smartphone,Electronics,East,Online,4,4218.82,16875.28,Cash,C1649
+T00058,4/28/2025,Eggs,Groceries,West,Offline,1,3421.69,3421.69,Net Banking,C4205
+T00059,2/25/2024,Lamp,Home & Kitchen,North,Online,3,3977.17,11931.51,Net Banking,C5244
+T00060,4/5/2025,Mixer,Home & Kitchen,East,Online,8,958.32,7666.56,Net Banking,C6659
+T00061,2/17/2024,Eggs,Groceries,East,Offline,7,2971.41,20799.87,Net Banking,C3645
+T00062,1/17/2025,Chair,Home & Kitchen,South,Online,2,4572.76,9145.52,Credit Card,C8517
+T00063,3/17/2025,Milk,Groceries,North,Offline,1,1409.4,1409.4,Credit Card,C7383
+T00064,4/28/2024,Jacket,Clothing,East,Online,8,3111.76,24894.08,Cash,C6049
+T00065,4/4/2024,T-Shirt,Clothing,North,Offline,1,2196.67,2196.67,UPI,C4014
+T00066,12/18/2024,Lipstick,Beauty,East,Offline,5,4830.87,24154.35,Net Banking,C7729
+T00067,1/21/2024,Lipstick,Beauty,East,Offline,8,2107.34,16858.72,Cash,C1131
+T00068,12/22/2024,Conditioner,Beauty,North,Online,7,4187.69,29313.83,UPI,C5893
+T00069,2/13/2025,Mixer,Home & Kitchen,East,Online,8,3163.67,25309.36,Cash,C5517
+T00070,6/21/2024,Lamp,Home & Kitchen,East,Offline,10,2924.46,29244.6,UPI,C5866
+T00071,4/15/2024,Eggs,Groceries,West,Offline,8,2531.28,20250.24,Net Banking,C7255
+T00072,7/23/2024,Coffee,Groceries,North,Offline,2,3929.68,7859.36,Cash,C6158
+T00073,1/13/2024,Chair,Home & Kitchen,North,Offline,6,2764.95,16589.7,UPI,C4802
+T00074,4/12/2025,Smart Watch,Electronics,West,Offline,8,1981.23,15849.84,Credit Card,C3471
+T00075,6/6/2024,Headphones,Electronics,North,Offline,9,4767.61,42908.49,Net Banking,C8433
+T00076,12/2/2024,Mixer,Home & Kitchen,North,Offline,6,1830.72,10984.32,UPI,C9795
+T00077,3/30/2024,Face Wash,Beauty,West,Offline,6,3974.35,23846.1,Cash,C7829
+T00078,10/7/2024,Jacket,Clothing,North,Online,4,3289.69,13158.76,Net Banking,C5215
+T00079,7/19/2024,Coffee,Groceries,North,Offline,3,3388.21,10164.63,Credit Card,C7188
+T00080,10/31/2024,Bread,Groceries,South,Offline,3,407.94,1223.82,Cash,C8444
+T00081,3/24/2025,Laptop,Electronics,South,Offline,3,789.34,2368.02,Credit Card,C5756
+T00082,8/3/2024,Coffee,Groceries,North,Offline,4,3110.14,12440.56,Credit Card,C4753
+T00083,3/17/2024,Shoes,Clothing,West,Offline,8,2554.26,20434.08,Net Banking,C5575
+T00084,2/1/2025,Lamp,Home & Kitchen,East,Offline,7,4868.52,34079.64,Net Banking,C3759
+T00085,10/8/2024,Chair,Home & Kitchen,West,Online,9,1839.16,16552.44,Cash,C5551
+T00086,4/8/2025,Coffee,Groceries,South,Offline,4,4036.97,16147.88,UPI,C9431
+T00087,4/13/2025,T-Shirt,Clothing,East,Online,10,209.22,2092.2,UPI,C2113
+T00088,9/12/2024,Milk,Groceries,South,Online,4,1229.27,4917.08,Net Banking,C3813
+T00089,2/17/2025,Lipstick,Beauty,South,Offline,7,126.71,886.97,Net Banking,C1319
+T00090,3/28/2024,Conditioner,Beauty,North,Online,1,1751.29,1751.29,Cash,C5496
+T00091,10/25/2024,Cookware Set,Home & Kitchen,East,Offline,2,1295.03,2590.06,UPI,C1244
+T00092,10/26/2024,Coffee,Groceries,North,Online,2,1614.09,3228.18,UPI,C7505
+T00093,4/15/2025,Lamp,Home & Kitchen,North,Offline,9,2057.54,18517.86,UPI,C3427
+T00094,11/27/2024,Milk,Groceries,South,Offline,3,1144.02,3432.06,UPI,C9761
+T00095,9/24/2024,Water Bottle,Home & Kitchen,South,Online,5,2312.2,11561,UPI,C8683
+T00096,1/12/2025,T-Shirt,Clothing,West,Offline,5,1673.45,8367.25,Net Banking,C6033
+T00097,2/9/2025,Hoodie,Clothing,North,Offline,10,2526.86,25268.6,Credit Card,C5672
+T00098,3/30/2024,Jeans,Clothing,South,Offline,8,1619.73,12957.84,Credit Card,C4395
+T00099,10/16/2024,Perfume,Beauty,South,Offline,5,2088.04,10440.2,Net Banking,C3190
+T00100,3/22/2025,Conditioner,Beauty,North,Online,2,3469.17,6938.34,UPI,C5606
+T00101,12/30/2024,Tablet,Electronics,West,Offline,2,866.7,1733.4,Cash,C2935
+T00102,12/2/2024,Headphones,Electronics,East,Offline,3,758.05,2274.15,Cash,C6852
+T00103,10/11/2024,Smart Watch,Electronics,East,Online,5,3191,15955,Cash,C3729
+T00104,5/14/2024,Headphones,Electronics,North,Offline,3,1489.94,4469.82,Net Banking,C7990
+T00105,12/20/2024,Smart Watch,Electronics,North,Online,9,936.17,8425.53,Credit Card,C8617
+T00106,1/6/2025,Conditioner,Beauty,East,Offline,9,282.41,2541.69,UPI,C9737
+T00107,1/16/2025,Water Bottle,Home & Kitchen,West,Online,7,960.96,6726.72,Credit Card,C3089
+T00108,3/10/2024,Perfume,Beauty,South,Online,2,4800.1,9600.2,Net Banking,C1026
+T00109,4/29/2025,Laptop,Electronics,East,Offline,8,3882.76,31062.08,Cash,C3454
+T00110,2/9/2025,Cookware Set,Home & Kitchen,South,Offline,8,2616.72,20933.76,Net Banking,C2273
+T00111,5/15/2025,Cookware Set,Home & Kitchen,East,Offline,5,3939.98,19699.9,Credit Card,C9314
+T00112,3/31/2025,Jacket,Clothing,North,Online,3,4870.16,14610.48,Cash,C9718
+T00113,8/30/2024,Eggs,Groceries,North,Offline,2,3240.51,6481.02,Cash,C6227
+T00114,4/30/2024,Mixer,Home & Kitchen,North,Online,8,1523.46,12187.68,Credit Card,C5655
+T00115,3/11/2024,Water Bottle,Home & Kitchen,West,Online,5,1464.03,7320.15,UPI,C8177
+T00116,1/12/2025,Perfume,Beauty,West,Online,2,2671.07,5342.14,UPI,C9012
+T00117,9/20/2024,Cookware Set,Home & Kitchen,West,Online,1,1257.78,1257.78,Cash,C1968
+T00118,3/13/2024,Smart Watch,Electronics,West,Offline,2,1675.32,3350.64,UPI,C3734
+T00119,12/25/2024,Hoodie,Clothing,West,Online,2,1183.56,2367.12,Credit Card,C5321
+T00120,2/26/2025,Coffee,Groceries,South,Offline,4,400.1,1600.4,Net Banking,C9363
+T00121,10/24/2024,Headphones,Electronics,West,Online,9,4958.53,44626.77,UPI,C2910
+T00122,8/27/2024,Shampoo,Beauty,West,Online,7,2173.94,15217.58,Net Banking,C2483
+T00123,4/12/2024,Laptop,Electronics,West,Online,8,1144.84,9158.72,Credit Card,C9065
+T00124,3/19/2024,Water Bottle,Home & Kitchen,West,Offline,10,2249.4,22494,UPI,C6722
+T00125,3/19/2024,Conditioner,Beauty,South,Online,8,1793.87,14350.96,UPI,C8469
+T00126,9/28/2024,Lamp,Home & Kitchen,North,Offline,3,1214.98,3644.94,Credit Card,C6766
+T00127,2/17/2025,Headphones,Electronics,North,Online,8,256.35,2050.8,Credit Card,C9298
+T00128,5/30/2024,Smartphone,Electronics,East,Online,10,3876.3,38763,UPI,C4350
+T00129,2/22/2025,Coffee,Groceries,West,Offline,5,3700.74,18503.7,Net Banking,C4699
+T00130,12/11/2024,Shampoo,Beauty,West,Online,10,3041.49,30414.9,Net Banking,C6909
+T00131,2/6/2025,Smart Watch,Electronics,South,Offline,9,3692.65,33233.85,UPI,C7550
+T00132,3/13/2025,Conditioner,Beauty,North,Offline,4,3925.45,15701.8,Credit Card,C5109
+T00133,11/20/2024,Jeans,Clothing,North,Online,8,267.36,2138.88,Net Banking,C4201
+T00134,2/1/2024,Water Bottle,Home & Kitchen,South,Online,3,4362.79,13088.37,UPI,C5101
+T00135,8/24/2024,Lipstick,Beauty,West,Online,7,482.8,3379.6,Cash,C5326
+T00136,7/15/2024,Perfume,Beauty,East,Offline,7,2792.78,19549.46,Cash,C3115
+T00137,1/7/2024,Shampoo,Beauty,South,Offline,10,3141.83,31418.3,Credit Card,C5377
+T00138,4/18/2025,Lamp,Home & Kitchen,East,Offline,2,1261.3,2522.6,Credit Card,C6039
+T00139,8/10/2024,Perfume,Beauty,East,Offline,7,436.54,3055.78,Cash,C2081
+T00140,8/18/2024,Shoes,Clothing,East,Offline,8,1713.15,13705.2,UPI,C8803
+T00141,5/28/2024,Shoes,Clothing,West,Offline,10,2359.93,23599.3,Net Banking,C8556
+T00142,8/10/2024,Hoodie,Clothing,West,Offline,8,2938.12,23504.96,UPI,C8731
+T00143,4/19/2024,Cookware Set,Home & Kitchen,West,Offline,7,3344.78,23413.46,Cash,C2816
+T00144,10/9/2024,Chair,Home & Kitchen,West,Offline,4,3861.44,15445.76,UPI,C6338
+T00145,3/15/2024,Coffee,Groceries,North,Offline,1,4637.25,4637.25,UPI,C4114
+T00146,3/5/2025,Smartphone,Electronics,East,Online,3,3504.84,10514.52,Net Banking,C3978
+T00147,1/10/2025,Conditioner,Beauty,West,Online,6,2977.02,17862.12,Cash,C6817
+T00148,1/4/2025,Tablet,Electronics,West,Online,7,2943.65,20605.55,Credit Card,C8340
+T00149,4/2/2025,Face Wash,Beauty,South,Online,6,4231.3,25387.8,Credit Card,C3990
+T00150,2/28/2025,Cookware Set,Home & Kitchen,West,Online,5,2354.26,11771.3,Net Banking,C7076
+T00151,6/27/2024,Lamp,Home & Kitchen,North,Offline,4,4080.72,16322.88,Net Banking,C2830
+T00152,6/27/2024,Jeans,Clothing,South,Online,2,4067.78,8135.56,UPI,C6115
+T00153,4/6/2024,Perfume,Beauty,South,Online,2,1542.27,3084.54,Net Banking,C5250
+T00154,2/24/2025,T-Shirt,Clothing,North,Offline,4,4777.61,19110.44,Credit Card,C1585
+T00155,10/31/2024,Chair,Home & Kitchen,North,Online,5,2095.67,10478.35,Credit Card,C6616
+T00156,3/31/2024,Bread,Groceries,East,Online,7,2104.08,14728.56,Credit Card,C3050
+T00157,3/2/2025,Laptop,Electronics,South,Offline,2,2353.51,4707.02,Net Banking,C6224
+T00158,6/27/2024,Smart Watch,Electronics,North,Offline,1,1266.51,1266.51,Cash,C3401
+T00159,4/16/2025,Milk,Groceries,North,Online,1,1845.16,1845.16,UPI,C8878
+T00160,3/21/2024,Bread,Groceries,East,Online,9,4455.85,40102.65,UPI,C7724
+T00161,7/5/2024,Chair,Home & Kitchen,West,Offline,2,4234.59,8469.18,UPI,C7044
+T00162,4/18/2024,Bread,Groceries,West,Online,8,3566.87,28534.96,Cash,C1737
+T00163,10/21/2024,T-Shirt,Clothing,South,Offline,3,705.69,2117.07,Net Banking,C2096
+T00164,7/10/2024,Bread,Groceries,East,Offline,6,3740.14,22440.84,Cash,C9235
+T00165,1/7/2025,Tablet,Electronics,South,Offline,1,1641.61,1641.61,UPI,C2637
+T00166,11/12/2024,Water Bottle,Home & Kitchen,West,Offline,10,1752.62,17526.2,Net Banking,C1069
+T00167,1/3/2025,Rice,Groceries,North,Online,8,3410.57,27284.56,UPI,C8384
+T00168,9/18/2024,Shoes,Clothing,North,Offline,3,4098.12,12294.36,Cash,C9386
+T00169,5/9/2024,Headphones,Electronics,North,Online,2,2463.68,4927.36,UPI,C9001
+T00170,5/5/2024,Water Bottle,Home & Kitchen,West,Offline,3,422.94,1268.82,Cash,C8758
+T00171,8/2/2024,Milk,Groceries,East,Online,7,343.87,2407.09,UPI,C6420
+T00172,7/3/2024,Smartphone,Electronics,South,Offline,9,2953.39,26580.51,Net Banking,C7668
+T00173,12/30/2024,Tablet,Electronics,West,Online,9,1738.4,15645.6,Credit Card,C5637
+T00174,11/21/2024,Shoes,Clothing,West,Offline,3,2652.62,7957.86,Net Banking,C1425
+T00175,4/29/2024,Bread,Groceries,West,Online,9,1073.54,9661.86,UPI,C1395
+T00176,9/23/2024,Jacket,Clothing,West,Offline,5,4016.9,20084.5,Credit Card,C9789
+T00177,7/20/2024,Milk,Groceries,East,Offline,8,2920.51,23364.08,Net Banking,C2080
+T00178,4/12/2025,Mixer,Home & Kitchen,South,Online,10,2921.89,29218.9,Cash,C3531
+T00179,10/2/2024,Rice,Groceries,North,Offline,4,2125.87,8503.48,Net Banking,C7928
+T00180,7/6/2024,Jacket,Clothing,West,Online,7,851.38,5959.66,Net Banking,C2169
+T00181,3/31/2024,Mixer,Home & Kitchen,East,Offline,7,1192.91,8350.37,Credit Card,C9763
+T00182,3/28/2024,Conditioner,Beauty,East,Online,9,1378.14,12403.26,Cash,C6330
+T00183,6/11/2024,Conditioner,Beauty,West,Online,9,4227.84,38050.56,Credit Card,C5043
+T00184,10/2/2024,Milk,Groceries,South,Online,10,1785.54,17855.4,Credit Card,C2799
+T00185,6/2/2024,Perfume,Beauty,West,Online,2,3813.53,7627.06,Credit Card,C2433
+T00186,1/1/2024,Headphones,Electronics,East,Online,10,3268.72,32687.2,UPI,C7891
+T00187,10/6/2024,Chair,Home & Kitchen,North,Online,2,1334.49,2668.98,UPI,C3060
+T00188,1/3/2024,Jacket,Clothing,East,Online,5,3218.66,16093.3,Net Banking,C7300
+T00189,1/30/2025,Laptop,Electronics,East,Offline,2,3159.97,6319.94,Net Banking,C9296
+T00190,5/7/2024,Headphones,Electronics,South,Offline,3,3897.72,11693.16,UPI,C2957
+T00191,10/10/2024,Bread,Groceries,West,Offline,1,3250.54,3250.54,UPI,C8182
+T00192,1/22/2024,Rice,Groceries,West,Offline,2,751.1,1502.2,Credit Card,C2515
+T00193,4/28/2025,Tablet,Electronics,North,Online,4,4254.42,17017.68,Net Banking,C5740
+T00194,10/3/2024,Shoes,Clothing,South,Offline,8,4785.61,38284.88,Credit Card,C1050
+T00195,2/27/2024,Conditioner,Beauty,East,Offline,10,4398.66,43986.6,Net Banking,C2912
+T00196,5/22/2024,Tablet,Electronics,North,Offline,5,3589.6,17948,Net Banking,C9873
+T00197,8/20/2024,Face Wash,Beauty,West,Offline,6,4478.36,26870.16,Net Banking,C8769
+T00198,3/6/2024,Smartphone,Electronics,East,Online,7,4269.61,29887.27,UPI,C2573
+T00199,6/13/2024,Mixer,Home & Kitchen,West,Offline,6,3080.32,18481.92,Net Banking,C6515
+T00200,1/29/2025,Eggs,Groceries,South,Offline,10,1846.98,18469.8,UPI,C3899
+T00201,8/9/2024,Perfume,Beauty,West,Offline,1,3615.91,3615.91,Credit Card,C1345
+T00202,4/13/2024,Lamp,Home & Kitchen,South,Offline,5,1499.22,7496.1,Cash,C8387
+T00203,5/13/2025,Face Wash,Beauty,South,Online,3,2619.31,7857.93,UPI,C5298
+T00204,9/3/2024,Water Bottle,Home & Kitchen,South,Online,7,221.19,1548.33,Net Banking,C2779
+T00205,2/9/2025,Jeans,Clothing,West,Online,1,3429.09,3429.09,Cash,C1993
+T00206,1/1/2024,Conditioner,Beauty,South,Online,6,711.84,4271.04,Net Banking,C4847
+T00207,3/31/2025,Smartphone,Electronics,South,Offline,5,3249.42,16247.1,Cash,C1791
+T00208,8/16/2024,Conditioner,Beauty,South,Offline,8,2283.51,18268.08,Credit Card,C1925
+T00209,12/16/2024,Bread,Groceries,South,Online,2,3161.38,6322.76,Cash,C8345
+T00210,4/25/2025,Smartphone,Electronics,West,Online,3,867.37,2602.11,Net Banking,C8168
+T00211,4/8/2024,Chair,Home & Kitchen,North,Online,10,817.21,8172.1,Net Banking,C6679
+T00212,12/15/2024,Perfume,Beauty,West,Online,8,1426.09,11408.72,UPI,C3024
+T00213,1/3/2024,Perfume,Beauty,North,Online,7,4463.74,31246.18,Net Banking,C7243
+T00214,2/9/2024,Milk,Groceries,North,Online,6,4338.62,26031.72,Cash,C7931
+T00215,10/21/2024,Water Bottle,Home & Kitchen,North,Online,3,3695.4,11086.2,UPI,C2156
+T00216,11/23/2024,Coffee,Groceries,South,Offline,4,1474.97,5899.88,Credit Card,C5512
+T00217,5/8/2024,Smart Watch,Electronics,South,Offline,7,3881.32,27169.24,UPI,C8417
+T00218,10/27/2024,Tablet,Electronics,East,Online,7,2790.52,19533.64,Credit Card,C5539
+T00219,7/13/2024,Lipstick,Beauty,East,Online,9,4523.1,40707.9,Credit Card,C4252
+T00220,9/17/2024,Shoes,Clothing,North,Online,2,2956.88,5913.76,Net Banking,C7203
+T00221,3/29/2024,Lamp,Home & Kitchen,West,Offline,2,4807.59,9615.18,Credit Card,C4466
+T00222,10/24/2024,Jeans,Clothing,South,Online,1,382.91,382.91,Credit Card,C4664
+T00223,8/2/2024,Eggs,Groceries,West,Online,4,4672.99,18691.96,Credit Card,C7917
+T00224,4/25/2025,Conditioner,Beauty,East,Online,10,1783.35,17833.5,Credit Card,C3290
+T00225,9/25/2024,Jacket,Clothing,North,Online,10,1064.57,10645.7,Credit Card,C3349
+T00226,1/13/2025,Headphones,Electronics,North,Offline,8,3892.21,31137.68,Credit Card,C6661
+T00227,11/28/2024,Conditioner,Beauty,South,Online,2,3020.25,6040.5,Credit Card,C8196
+T00228,10/14/2024,T-Shirt,Clothing,North,Offline,9,4810.55,43294.95,UPI,C5290
+T00229,2/16/2025,Coffee,Groceries,North,Offline,6,4946.54,29679.24,Net Banking,C1797
+T00230,6/8/2024,Jeans,Clothing,East,Online,5,2631.98,13159.9,Cash,C8036
+T00231,2/14/2024,Mixer,Home & Kitchen,North,Online,6,638.58,3831.48,Net Banking,C4174
+T00232,11/10/2024,Tablet,Electronics,South,Offline,4,4985.78,19943.12,UPI,C7126
+T00233,3/30/2025,Coffee,Groceries,East,Online,9,2900.15,26101.35,Cash,C6061
+T00234,11/1/2024,Laptop,Electronics,West,Offline,1,1266.39,1266.39,Credit Card,C4246
+T00235,1/9/2025,Face Wash,Beauty,South,Offline,4,1923.68,7694.72,Credit Card,C9461
+T00236,7/9/2024,Rice,Groceries,West,Online,4,3162.23,12648.92,UPI,C4490
+T00237,2/12/2024,Milk,Groceries,West,Online,7,278.61,1950.27,UPI,C2205
+T00238,1/2/2025,Jeans,Clothing,North,Online,3,2475.15,7425.45,Net Banking,C6517
+T00239,4/24/2024,Coffee,Groceries,East,Offline,10,825.34,8253.4,Net Banking,C4126
+T00240,1/31/2024,Mixer,Home & Kitchen,West,Online,8,4469.99,35759.92,Credit Card,C8734
+T00241,2/22/2024,Shampoo,Beauty,North,Online,7,3765.65,26359.55,Cash,C1213
+T00242,1/20/2024,Coffee,Groceries,South,Offline,7,1624.5,11371.5,UPI,C3390
+T00243,1/22/2024,Water Bottle,Home & Kitchen,West,Online,5,816.49,4082.45,UPI,C7053
+T00244,5/30/2024,Smartphone,Electronics,West,Online,3,318.06,954.18,Cash,C6723
+T00245,4/10/2024,Laptop,Electronics,North,Online,7,3788.08,26516.56,Cash,C5041
+T00246,10/24/2024,Tablet,Electronics,North,Online,9,1124.51,10120.59,Cash,C3062
+T00247,1/2/2024,Lipstick,Beauty,West,Online,5,954.57,4772.85,Cash,C3993
+T00248,5/5/2025,Milk,Groceries,South,Offline,9,2705.94,24353.46,Credit Card,C3404
+T00249,5/11/2024,Lamp,Home & Kitchen,West,Online,10,213.33,2133.3,Credit Card,C2334
+T00250,8/18/2024,Rice,Groceries,West,Online,9,3681.51,33133.59,Net Banking,C4643
+T00251,4/25/2025,Face Wash,Beauty,East,Offline,6,4432.71,26596.26,UPI,C7325
+T00252,2/28/2024,Lamp,Home & Kitchen,East,Offline,6,1216.01,7296.06,Cash,C2079
+T00253,7/12/2024,Bread,Groceries,South,Online,2,396.42,792.84,UPI,C6316
+T00254,3/25/2025,Chair,Home & Kitchen,South,Offline,9,4346.59,39119.31,UPI,C7149
+T00255,2/27/2024,Smart Watch,Electronics,West,Online,7,4623.57,32364.99,Net Banking,C9062
+T00256,1/24/2024,Smart Watch,Electronics,West,Online,9,4915.7,44241.3,Credit Card,C8113
+T00257,3/6/2025,Shampoo,Beauty,North,Offline,5,3304.67,16523.35,UPI,C8123
+T00258,9/11/2024,Headphones,Electronics,South,Offline,3,4642.42,13927.26,Credit Card,C3150
+T00259,8/13/2024,Lamp,Home & Kitchen,East,Online,4,2005.12,8020.48,Credit Card,C8548
+T00260,4/30/2024,Tablet,Electronics,West,Online,1,4923.59,4923.59,Credit Card,C3446
+T00261,2/4/2025,Shoes,Clothing,West,Online,1,895.41,895.41,UPI,C6000
+T00262,4/16/2025,Bread,Groceries,West,Offline,3,458.23,1374.69,Net Banking,C8217
+T00263,1/31/2025,Lipstick,Beauty,East,Online,8,1174.24,9393.92,Cash,C7709
+T00264,4/8/2025,Shampoo,Beauty,South,Online,3,687.85,2063.55,Credit Card,C4634
+T00265,1/6/2024,Eggs,Groceries,North,Offline,6,4239.02,25434.12,UPI,C3056
+T00266,12/16/2024,Rice,Groceries,North,Offline,8,4151.43,33211.44,Net Banking,C5042
+T00267,11/26/2024,Cookware Set,Home & Kitchen,South,Online,4,2071.98,8287.92,Net Banking,C1781
+T00268,2/20/2024,Shoes,Clothing,East,Online,8,3806.19,30449.52,Credit Card,C3342
+T00269,10/9/2024,Conditioner,Beauty,East,Online,3,1824.33,5472.99,Cash,C7150
+T00270,10/19/2024,Hoodie,Clothing,East,Offline,6,4825.95,28955.7,Net Banking,C1355
+T00271,5/3/2024,Cookware Set,Home & Kitchen,South,Online,9,4763.81,42874.29,Cash,C1781
+T00272,12/30/2024,Shampoo,Beauty,South,Offline,2,2083.17,4166.34,UPI,C3681
+T00273,7/25/2024,Coffee,Groceries,South,Offline,7,846.32,5924.24,Cash,C1579
+T00274,9/27/2024,Lipstick,Beauty,North,Online,3,2303.56,6910.68,Credit Card,C2231
+T00275,10/24/2024,Conditioner,Beauty,East,Online,9,2955.76,26601.84,Cash,C7122
+T00276,5/28/2024,Perfume,Beauty,South,Offline,2,1054.19,2108.38,Credit Card,C5387
+T00277,3/30/2024,Milk,Groceries,North,Offline,6,4244.86,25469.16,Cash,C5287
+T00278,3/6/2024,Conditioner,Beauty,South,Online,2,2911.52,5823.04,UPI,C6057
+T00279,10/24/2024,Jeans,Clothing,East,Online,4,2373.46,9493.84,Net Banking,C6053
+T00280,12/23/2024,Rice,Groceries,East,Online,5,4283.15,21415.75,Cash,C5905
+T00281,5/3/2024,Headphones,Electronics,West,Offline,9,1737.31,15635.79,Net Banking,C8578
+T00282,10/15/2024,Conditioner,Beauty,South,Offline,6,4061.56,24369.36,UPI,C4132
+T00283,6/5/2024,Lipstick,Beauty,South,Online,1,4350.01,4350.01,Cash,C8412
+T00284,11/18/2024,Headphones,Electronics,North,Online,4,4055.86,16223.44,UPI,C9976
+T00285,2/20/2025,T-Shirt,Clothing,West,Offline,9,4490.26,40412.34,Cash,C3741
+T00286,12/20/2024,Rice,Groceries,North,Online,7,2456.82,17197.74,Net Banking,C7201
+T00287,5/16/2024,Bread,Groceries,South,Offline,1,4215.53,4215.53,Cash,C4468
+T00288,8/23/2024,Tablet,Electronics,North,Offline,7,2274.12,15918.84,Net Banking,C7107
+T00289,2/22/2024,Mixer,Home & Kitchen,North,Online,7,4123.94,28867.58,Net Banking,C7716
+T00290,1/4/2024,Eggs,Groceries,North,Online,6,3750.81,22504.86,Net Banking,C8094
+T00291,2/4/2025,Jeans,Clothing,North,Online,8,1278.82,10230.56,Credit Card,C9392
+T00292,1/4/2024,Shoes,Clothing,West,Online,7,1607.29,11251.03,UPI,C2357
+T00293,10/4/2024,Face Wash,Beauty,South,Offline,1,3559.41,3559.41,Cash,C7435
+T00294,5/14/2024,Perfume,Beauty,North,Offline,9,1545.55,13909.95,Cash,C1817
+T00295,10/16/2024,Jeans,Clothing,North,Online,9,1879.95,16919.55,Net Banking,C2352
+T00296,7/19/2024,Cookware Set,Home & Kitchen,South,Online,3,2327.13,6981.39,UPI,C4602
+T00297,8/29/2024,Perfume,Beauty,East,Online,9,4717.36,42456.24,Net Banking,C2422
+T00298,12/29/2024,Coffee,Groceries,East,Online,6,3738.35,22430.1,Cash,C7604
+T00299,5/2/2024,Coffee,Groceries,South,Online,4,4670.49,18681.96,Credit Card,C2863
+T00300,8/14/2024,Chair,Home & Kitchen,South,Online,8,630.31,5042.48,Net Banking,C6995
+T00301,10/28/2024,Mixer,Home & Kitchen,South,Online,8,3377.3,27018.4,Cash,C3058
+T00302,11/25/2024,Conditioner,Beauty,South,Online,5,1364.66,6823.3,Credit Card,C6624
+T00303,10/30/2024,Water Bottle,Home & Kitchen,South,Online,4,4602.81,18411.24,Credit Card,C5614
+T00304,10/8/2024,Face Wash,Beauty,East,Offline,2,2331.64,4663.28,Net Banking,C3355
+T00305,5/20/2024,Coffee,Groceries,North,Online,2,3261.71,6523.42,Credit Card,C1436
+T00306,8/11/2024,Face Wash,Beauty,South,Offline,6,2489.92,14939.52,UPI,C5522
+T00307,9/22/2024,Smart Watch,Electronics,South,Offline,3,4807.82,14423.46,Credit Card,C9862
+T00308,7/31/2024,Tablet,Electronics,South,Offline,10,816.06,8160.6,UPI,C1678
+T00309,2/16/2025,Coffee,Groceries,South,Online,3,1326.03,3978.09,Net Banking,C1998
+T00310,10/11/2024,Jeans,Clothing,South,Online,3,3947.33,11841.99,Net Banking,C9317
+T00311,6/3/2024,Conditioner,Beauty,South,Offline,10,1536.93,15369.3,UPI,C9960
+T00312,2/4/2025,Coffee,Groceries,South,Offline,7,144.36,1010.52,UPI,C2644
+T00313,10/4/2024,Smart Watch,Electronics,East,Online,4,3533.01,14132.04,Net Banking,C3284
+T00314,4/17/2024,Jeans,Clothing,North,Online,4,2581.39,10325.56,Cash,C6179
+T00315,2/21/2025,Smartphone,Electronics,South,Offline,9,2675.97,24083.73,Net Banking,C8546
+T00316,5/14/2024,Shampoo,Beauty,East,Offline,1,2901.11,2901.11,Credit Card,C4460
+T00317,6/16/2024,Lipstick,Beauty,South,Online,7,2580.57,18063.99,Credit Card,C7531
+T00318,5/12/2024,Headphones,Electronics,West,Online,2,1732.86,3465.72,Credit Card,C2488
+T00319,11/30/2024,Smartphone,Electronics,West,Online,7,1865.65,13059.55,Cash,C2804
+T00320,8/7/2024,Eggs,Groceries,South,Offline,3,554.09,1662.27,Cash,C5302
+T00321,6/4/2024,Jeans,Clothing,North,Online,5,1405.05,7025.25,UPI,C8856
+T00322,11/28/2024,Jacket,Clothing,South,Offline,6,1234.03,7404.18,Cash,C7576
+T00323,3/11/2025,Face Wash,Beauty,North,Offline,2,4571.08,9142.16,Credit Card,C6751
+T00324,12/16/2024,Perfume,Beauty,North,Offline,1,4664.24,4664.24,Cash,C5125
+T00325,4/1/2024,Coffee,Groceries,East,Online,3,3999.57,11998.71,Credit Card,C7337
+T00326,5/12/2025,Headphones,Electronics,South,Online,6,4137.52,24825.12,Cash,C7067
+T00327,5/22/2024,Headphones,Electronics,East,Offline,7,3982.18,27875.26,Net Banking,C8381
+T00328,11/19/2024,Lamp,Home & Kitchen,East,Online,8,4153.96,33231.68,Credit Card,C4806
+T00329,4/4/2025,Conditioner,Beauty,North,Online,7,4240.79,29685.53,Cash,C6291
+T00330,5/20/2024,Shampoo,Beauty,West,Offline,1,1172.53,1172.53,Cash,C3848
+T00331,3/2/2025,Eggs,Groceries,North,Offline,3,3453.75,10361.25,Cash,C3243
+T00332,4/14/2025,T-Shirt,Clothing,East,Offline,4,1726.13,6904.52,Credit Card,C2629
+T00333,3/9/2025,Laptop,Electronics,North,Offline,10,3355.54,33555.4,Cash,C9794
+T00334,9/26/2024,Coffee,Groceries,West,Offline,10,4236.01,42360.1,Net Banking,C6514
+T00335,10/13/2024,Smart Watch,Electronics,North,Online,1,2070.89,2070.89,Credit Card,C7155
+T00336,12/4/2024,Mixer,Home & Kitchen,West,Offline,8,3956.2,31649.6,UPI,C2591
+T00337,11/22/2024,Headphones,Electronics,South,Offline,4,2547.55,10190.2,Cash,C3466
+T00338,6/7/2024,Jacket,Clothing,South,Offline,6,4553.33,27319.98,UPI,C3373
+T00339,8/1/2024,Smart Watch,Electronics,North,Online,1,2246.23,2246.23,UPI,C6950
+T00340,4/16/2025,Shoes,Clothing,East,Online,2,3380.83,6761.66,UPI,C1281
+T00341,4/14/2024,Milk,Groceries,South,Offline,4,1603.91,6415.64,UPI,C3265
+T00342,10/15/2024,Smart Watch,Electronics,South,Offline,5,2447.06,12235.3,UPI,C6207
+T00343,1/21/2024,Conditioner,Beauty,West,Online,4,1574.68,6298.72,Credit Card,C4464
+T00344,5/29/2024,Conditioner,Beauty,West,Offline,10,3484.86,34848.6,UPI,C9231
+T00345,2/7/2025,Chair,Home & Kitchen,East,Online,1,128.35,128.35,Cash,C7944
+T00346,1/23/2024,Rice,Groceries,South,Online,2,602.42,1204.84,UPI,C7962
+T00347,3/5/2025,Shampoo,Beauty,East,Offline,6,281.83,1690.98,Credit Card,C2739
+T00348,2/19/2025,Headphones,Electronics,West,Online,1,2861.19,2861.19,Credit Card,C3549
+T00349,6/2/2024,Hoodie,Clothing,East,Online,10,3325.87,33258.7,Credit Card,C6276
+T00350,3/9/2024,Conditioner,Beauty,West,Online,9,4154.65,37391.85,UPI,C8970
+T00351,3/12/2025,Conditioner,Beauty,South,Offline,7,1857.07,12999.49,Cash,C3112
+T00352,3/20/2024,Smartphone,Electronics,South,Offline,5,1378.96,6894.8,UPI,C8781
+T00353,5/29/2024,Coffee,Groceries,West,Online,5,3066.52,15332.6,Cash,C5220
+T00354,9/30/2024,Face Wash,Beauty,South,Offline,9,1511.17,13600.53,Cash,C3379
+T00355,1/2/2025,Coffee,Groceries,South,Online,3,563.12,1689.36,Net Banking,C9553
+T00356,5/12/2025,Shoes,Clothing,East,Offline,9,3021.89,27197.01,UPI,C1698
+T00357,3/1/2024,Lipstick,Beauty,South,Online,2,4125.74,8251.48,Credit Card,C9957
+T00358,6/15/2024,Bread,Groceries,West,Offline,6,2169.3,13015.8,Net Banking,C6100
+T00359,5/2/2025,T-Shirt,Clothing,West,Online,3,1060.69,3182.07,UPI,C5673
+T00360,2/17/2025,Coffee,Groceries,West,Online,8,1646.86,13174.88,Cash,C6820
+T00361,8/17/2024,Smart Watch,Electronics,East,Offline,7,3212.57,22487.99,Cash,C4530
+T00362,1/10/2024,Eggs,Groceries,West,Online,3,3790.44,11371.32,Cash,C3137
+T00363,2/23/2025,Hoodie,Clothing,North,Online,4,2282.74,9130.96,Net Banking,C3335
+T00364,5/4/2024,Water Bottle,Home & Kitchen,North,Offline,5,1647.99,8239.95,Cash,C3389
+T00365,9/4/2024,Tablet,Electronics,North,Offline,7,4942.53,34597.71,UPI,C4659
+T00366,3/16/2024,Shoes,Clothing,West,Offline,2,1759.02,3518.04,UPI,C5113
+T00367,3/10/2025,Jacket,Clothing,West,Offline,4,4086.18,16344.72,UPI,C4599
+T00368,1/20/2024,Face Wash,Beauty,East,Online,1,4375.31,4375.31,UPI,C2991
+T00369,8/22/2024,Milk,Groceries,East,Offline,7,1026.31,7184.17,Net Banking,C2143
+T00370,7/1/2024,Cookware Set,Home & Kitchen,North,Online,5,3097.14,15485.7,Net Banking,C1914
+T00371,10/10/2024,Jacket,Clothing,North,Online,5,4173.64,20868.2,Cash,C8454
+T00372,1/10/2024,Headphones,Electronics,North,Online,4,2766.26,11065.04,UPI,C5957
+T00373,4/25/2024,Rice,Groceries,South,Online,9,4564.17,41077.53,Net Banking,C7438
+T00374,2/13/2025,T-Shirt,Clothing,North,Offline,6,3546.76,21280.56,UPI,C2720
+T00375,7/25/2024,Coffee,Groceries,West,Online,7,4822.27,33755.89,Credit Card,C5072
+T00376,6/26/2024,Eggs,Groceries,East,Online,7,303.43,2124.01,Net Banking,C9565
+T00377,7/2/2024,Smartphone,Electronics,East,Online,7,855.82,5990.74,UPI,C3692
+T00378,8/22/2024,Shoes,Clothing,East,Offline,4,3306.13,13224.52,Net Banking,C1814
+T00379,5/1/2025,T-Shirt,Clothing,East,Offline,2,658.76,1317.52,Credit Card,C1235
+T00380,1/18/2024,Coffee,Groceries,West,Online,4,295.04,1180.16,Credit Card,C5987
+T00381,12/9/2024,Milk,Groceries,North,Online,6,1824.44,10946.64,Net Banking,C5192
+T00382,9/17/2024,Tablet,Electronics,West,Offline,3,3962.01,11886.03,UPI,C6708
+T00383,1/8/2025,Smartphone,Electronics,West,Offline,7,2401.48,16810.36,Credit Card,C1817
+T00384,4/25/2024,Conditioner,Beauty,North,Offline,1,1643.41,1643.41,Credit Card,C8227
+T00385,3/26/2024,Water Bottle,Home & Kitchen,West,Online,3,4679.86,14039.58,UPI,C8656
+T00386,11/28/2024,Water Bottle,Home & Kitchen,East,Offline,10,566.96,5669.6,Credit Card,C8121
+T00387,2/4/2025,Coffee,Groceries,South,Online,3,4818.35,14455.05,UPI,C1083
+T00388,1/16/2024,Face Wash,Beauty,East,Online,2,2613.76,5227.52,Cash,C6604
+T00389,1/17/2024,Chair,Home & Kitchen,East,Offline,3,4748.28,14244.84,Credit Card,C3799
+T00390,10/25/2024,Water Bottle,Home & Kitchen,North,Online,7,1191.9,8343.3,Cash,C9988
+T00391,3/6/2024,Hoodie,Clothing,West,Offline,7,3946.13,27622.91,Net Banking,C4789
+T00392,1/23/2025,Face Wash,Beauty,West,Offline,6,1338.24,8029.44,Net Banking,C7313
+T00393,4/1/2024,Laptop,Electronics,South,Offline,1,2658.67,2658.67,Net Banking,C1730
+T00394,9/28/2024,Face Wash,Beauty,East,Offline,7,2079.57,14556.99,UPI,C8332
+T00395,4/1/2025,Smartphone,Electronics,West,Online,9,1195.48,10759.32,UPI,C4374
+T00396,11/26/2024,Headphones,Electronics,East,Offline,9,4995.4,44958.6,Credit Card,C5260
+T00397,2/21/2025,Rice,Groceries,West,Offline,10,1598.43,15984.3,Credit Card,C1328
+T00398,12/22/2024,Cookware Set,Home & Kitchen,North,Online,1,1344.14,1344.14,Net Banking,C6248
+T00399,4/7/2024,Jeans,Clothing,North,Offline,4,690.27,2761.08,Net Banking,C5193
+T00400,5/22/2024,Cookware Set,Home & Kitchen,East,Offline,10,3876.75,38767.5,Credit Card,C1827
+T00401,7/5/2024,Milk,Groceries,South,Offline,1,1293.34,1293.34,Cash,C8946
+T00402,1/23/2024,Eggs,Groceries,North,Online,3,1853.46,5560.38,Net Banking,C4202
+T00403,2/18/2025,Lipstick,Beauty,West,Offline,1,3600.06,3600.06,Cash,C8850
+T00404,5/20/2024,Lamp,Home & Kitchen,West,Offline,1,2692.86,2692.86,Cash,C9660
+T00405,2/11/2025,Jacket,Clothing,West,Offline,2,1137.09,2274.18,UPI,C1728
+T00406,10/17/2024,Laptop,Electronics,South,Online,5,2736.05,13680.25,Cash,C9014
+T00407,1/30/2025,Lamp,Home & Kitchen,East,Online,5,4404.84,22024.2,Cash,C5368
+T00408,3/30/2025,Rice,Groceries,North,Online,9,4483.35,40350.15,Credit Card,C9916
+T00409,12/11/2024,Perfume,Beauty,North,Online,10,2903.9,29039,Credit Card,C5478
+T00410,1/2/2025,Shampoo,Beauty,West,Offline,6,2664.27,15985.62,Net Banking,C2702
+T00411,1/20/2024,Jeans,Clothing,North,Online,6,2095.41,12572.46,Cash,C4345
+T00412,1/25/2024,Milk,Groceries,West,Online,7,1933.39,13533.73,UPI,C7506
+T00413,8/30/2024,Hoodie,Clothing,South,Offline,10,2920.41,29204.1,Net Banking,C7906
+T00414,10/8/2024,Water Bottle,Home & Kitchen,West,Online,1,4479.3,4479.3,Cash,C9565
+T00415,2/19/2025,Smartphone,Electronics,North,Online,4,2419.54,9678.16,UPI,C4273
+T00416,1/14/2024,Lipstick,Beauty,South,Online,3,919.91,2759.73,UPI,C9721
+T00417,6/13/2024,Smart Watch,Electronics,South,Online,9,3170.82,28537.38,Net Banking,C6406
+T00418,7/14/2024,Mixer,Home & Kitchen,South,Online,7,482.11,3374.77,Credit Card,C1905
+T00419,4/2/2024,Smart Watch,Electronics,East,Offline,2,3201.43,6402.86,Credit Card,C7278
+T00420,5/16/2024,Smart Watch,Electronics,North,Online,6,2571.32,15427.92,Cash,C2856
+T00421,5/30/2024,Face Wash,Beauty,North,Online,3,2637.59,7912.77,Credit Card,C1112
+T00422,8/31/2024,Laptop,Electronics,East,Offline,2,3848.04,7696.08,Net Banking,C5256
+T00423,5/17/2024,Smartphone,Electronics,North,Online,5,402.9,2014.5,Net Banking,C2202
+T00424,4/2/2024,Bread,Groceries,South,Online,5,4188.31,20941.55,UPI,C4423
+T00425,4/21/2025,Smartphone,Electronics,East,Offline,2,4289.02,8578.04,Credit Card,C2895
+T00426,11/5/2024,Tablet,Electronics,North,Offline,1,4381.62,4381.62,Net Banking,C1777
+T00427,12/5/2024,Mixer,Home & Kitchen,North,Offline,6,1427,8562,Cash,C3661
+T00428,10/23/2024,Lamp,Home & Kitchen,South,Online,1,2730.55,2730.55,UPI,C8986
+T00429,10/28/2024,Lamp,Home & Kitchen,East,Online,10,2601.76,26017.6,Credit Card,C7582
+T00430,1/15/2025,Smartphone,Electronics,North,Online,4,2995.92,11983.68,UPI,C6054
+T00431,6/16/2024,Chair,Home & Kitchen,South,Offline,9,1610.1,14490.9,UPI,C4333
+T00432,1/31/2025,Jacket,Clothing,North,Online,10,1056.92,10569.2,Credit Card,C9204
+T00433,9/9/2024,Face Wash,Beauty,North,Online,3,4331.95,12995.85,Credit Card,C4513
+T00434,9/2/2024,Shampoo,Beauty,South,Online,6,2143.31,12859.86,Cash,C4942
+T00435,4/27/2025,Jacket,Clothing,East,Offline,6,2551.43,15308.58,Cash,C2534
+T00436,2/4/2024,Face Wash,Beauty,North,Offline,5,2656.41,13282.05,Cash,C2775
+T00437,11/9/2024,Lipstick,Beauty,East,Online,10,2425.23,24252.3,Credit Card,C8137
+T00438,4/7/2025,Rice,Groceries,West,Offline,6,1540.13,9240.78,UPI,C7846
+T00439,10/13/2024,Shampoo,Beauty,South,Offline,1,4854.34,4854.34,Cash,C4325
+T00440,5/14/2025,Eggs,Groceries,East,Offline,9,717.3,6455.7,UPI,C6962
+T00441,8/13/2024,Water Bottle,Home & Kitchen,South,Offline,2,1311.91,2623.82,UPI,C3554
+T00442,3/29/2025,Water Bottle,Home & Kitchen,South,Offline,10,698.57,6985.7,Credit Card,C9593
+T00443,11/20/2024,Lipstick,Beauty,West,Online,6,1509.72,9058.32,Credit Card,C3128
+T00444,7/6/2024,Chair,Home & Kitchen,West,Online,8,3846.38,30771.04,Net Banking,C1589
+T00445,11/29/2024,Milk,Groceries,West,Online,7,4923.72,34466.04,Credit Card,C3233
+T00446,2/21/2024,Coffee,Groceries,North,Online,6,3576.69,21460.14,Credit Card,C8068
+T00447,4/29/2024,Lamp,Home & Kitchen,North,Offline,2,4104.01,8208.02,Net Banking,C6015
+T00448,3/28/2024,Water Bottle,Home & Kitchen,North,Offline,9,1163.01,10467.09,Credit Card,C9173
+T00449,8/29/2024,Smart Watch,Electronics,South,Online,3,719.02,2157.06,UPI,C2352
+T00450,1/1/2024,Bread,Groceries,North,Offline,8,425.39,3403.12,Cash,C8692
+T00451,3/30/2024,Bread,Groceries,South,Online,1,2127.33,2127.33,Cash,C6455
+T00452,4/20/2024,Shampoo,Beauty,West,Online,8,3854.98,30839.84,Cash,C3658
+T00453,8/27/2024,Milk,Groceries,East,Offline,9,4341.47,39073.23,UPI,C2560
+T00454,3/25/2025,Face Wash,Beauty,West,Offline,8,4914.29,39314.32,UPI,C9105
+T00455,3/16/2025,Lamp,Home & Kitchen,East,Online,7,2923.62,20465.34,Cash,C7983
+T00456,7/15/2024,Shampoo,Beauty,West,Offline,9,151.88,1366.92,Cash,C4934
+T00457,5/4/2024,Smart Watch,Electronics,South,Offline,6,2033.62,12201.72,Cash,C9575
+T00458,12/19/2024,Lamp,Home & Kitchen,East,Online,3,1191.19,3573.57,UPI,C2039
+T00459,9/27/2024,Eggs,Groceries,West,Offline,9,3807.73,34269.57,Net Banking,C1343
+T00460,3/31/2024,Milk,Groceries,North,Offline,9,2685.39,24168.51,Cash,C3534
+T00461,3/6/2025,Chair,Home & Kitchen,East,Offline,8,3116.66,24933.28,Net Banking,C6091
+T00462,9/3/2024,Lamp,Home & Kitchen,South,Online,7,563.16,3942.12,UPI,C4969
+T00463,3/28/2024,Face Wash,Beauty,North,Online,3,3956.57,11869.71,Cash,C6609
+T00464,4/20/2024,Eggs,Groceries,South,Offline,8,3567.5,28540,Credit Card,C4436
+T00465,1/16/2025,Perfume,Beauty,South,Online,3,4049.35,12148.05,Cash,C4020
+T00466,11/7/2024,Lipstick,Beauty,East,Offline,7,941.25,6588.75,UPI,C9709
+T00467,4/3/2024,Headphones,Electronics,South,Offline,7,227.37,1591.59,Net Banking,C6103
+T00468,12/21/2024,Smartphone,Electronics,North,Online,2,643.34,1286.68,Cash,C2835
+T00469,1/28/2024,T-Shirt,Clothing,North,Online,9,3526.93,31742.37,Cash,C4232
+T00470,2/28/2025,Laptop,Electronics,North,Online,7,948.89,6642.23,Credit Card,C4283
+T00471,7/23/2024,Jeans,Clothing,South,Online,1,4246.91,4246.91,Cash,C2681
+T00472,9/13/2024,Water Bottle,Home & Kitchen,North,Offline,1,4484.71,4484.71,Credit Card,C9406
+T00473,6/12/2024,Cookware Set,Home & Kitchen,North,Online,1,1365.93,1365.93,UPI,C7946
+T00474,8/27/2024,Shampoo,Beauty,West,Offline,6,4589.16,27534.96,Cash,C7357
+T00475,6/9/2024,Smartphone,Electronics,South,Online,10,522.12,5221.2,UPI,C9920
+T00476,7/8/2024,Hoodie,Clothing,East,Offline,9,167.6,1508.4,UPI,C3244
+T00477,1/5/2025,Shoes,Clothing,North,Offline,8,575.57,4604.56,UPI,C1367
+T00478,2/25/2025,T-Shirt,Clothing,South,Offline,2,4643.03,9286.06,Credit Card,C7608
+T00479,5/12/2024,Smart Watch,Electronics,South,Offline,4,2365.01,9460.04,UPI,C6818
+T00480,2/28/2025,Headphones,Electronics,North,Online,4,952.65,3810.6,UPI,C6886
+T00481,9/2/2024,Perfume,Beauty,South,Online,7,4460.67,31224.69,Cash,C6255
+T00482,2/12/2024,Eggs,Groceries,West,Online,10,705.94,7059.4,Net Banking,C2793
+T00483,3/16/2024,Mixer,Home & Kitchen,West,Offline,1,4675.25,4675.25,Cash,C3226
+T00484,5/13/2024,Smartphone,Electronics,South,Offline,4,849.26,3397.04,Cash,C5314
+T00485,8/4/2024,Perfume,Beauty,West,Online,10,2758.29,27582.9,Credit Card,C5286
+T00486,10/8/2024,Headphones,Electronics,East,Online,5,4246.3,21231.5,Credit Card,C4887
+T00487,3/29/2025,Lamp,Home & Kitchen,North,Online,2,4262.81,8525.62,Credit Card,C5607
+T00488,6/29/2024,Eggs,Groceries,North,Online,4,2774.39,11097.56,Net Banking,C7238
+T00489,1/6/2024,Face Wash,Beauty,West,Online,4,1151.02,4604.08,Credit Card,C5083
+T00490,1/2/2024,Lamp,Home & Kitchen,East,Online,5,1599.19,7995.95,Credit Card,C3667
+T00491,12/13/2024,Water Bottle,Home & Kitchen,East,Offline,9,367.21,3304.89,Net Banking,C4618
+T00492,3/18/2024,Rice,Groceries,South,Offline,9,2952.63,26573.67,Net Banking,C3214
+T00493,1/15/2025,Chair,Home & Kitchen,South,Offline,9,4810.22,43291.98,UPI,C9201
+T00494,11/25/2024,Jeans,Clothing,South,Offline,9,3103.65,27932.85,Cash,C3743
+T00495,5/5/2025,Water Bottle,Home & Kitchen,North,Offline,3,414.38,1243.14,Net Banking,C8315
+T00496,1/30/2025,Bread,Groceries,East,Online,10,209.72,2097.2,UPI,C2609
+T00497,4/9/2025,Conditioner,Beauty,South,Online,3,681.27,2043.81,UPI,C9492
+T00498,10/28/2024,Bread,Groceries,West,Online,7,246.4,1724.8,Credit Card,C1075
+T00499,3/6/2024,Smart Watch,Electronics,East,Offline,7,1051.89,7363.23,Net Banking,C4812
+T00500,2/25/2024,Shoes,Clothing,South,Online,3,4095.33,12285.99,Credit Card,C6764
+T00501,3/5/2024,Jacket,Clothing,East,Online,3,3574.05,10722.15,Credit Card,C5931
+T00502,4/10/2025,Shoes,Clothing,South,Offline,9,964.45,8680.05,Net Banking,C2065
+T00503,11/23/2024,Laptop,Electronics,North,Online,9,2989.89,26909.01,Net Banking,C1160
+T00504,11/3/2024,Tablet,Electronics,South,Online,8,2859.42,22875.36,Cash,C4993
+T00505,7/20/2024,Milk,Groceries,North,Online,4,1385.1,5540.4,Credit Card,C9454
+T00506,6/7/2024,Coffee,Groceries,North,Online,1,785.14,785.14,Cash,C2066
+T00507,4/20/2024,Eggs,Groceries,South,Online,3,621.92,1865.76,Credit Card,C9671
+T00508,11/21/2024,Tablet,Electronics,South,Online,7,4092.67,28648.69,Net Banking,C5369
+T00509,1/12/2025,Smartphone,Electronics,West,Online,7,2180.61,15264.27,UPI,C1196
+T00510,1/3/2024,Smart Watch,Electronics,West,Online,5,639.63,3198.15,Credit Card,C7805
+T00511,10/17/2024,Jeans,Clothing,West,Online,6,3041.21,18247.26,UPI,C2160
+T00512,8/6/2024,Cookware Set,Home & Kitchen,West,Online,2,4714.24,9428.48,Credit Card,C2703
+T00513,8/20/2024,Bread,Groceries,South,Offline,10,3328.69,33286.9,Credit Card,C2627
+T00514,6/12/2024,Laptop,Electronics,West,Offline,4,4074.38,16297.52,Net Banking,C3118
+T00515,11/6/2024,T-Shirt,Clothing,East,Online,1,2237.7,2237.7,Net Banking,C6074
+T00516,4/2/2024,Shampoo,Beauty,East,Offline,6,2831.17,16987.02,UPI,C3701
+T00517,7/24/2024,Eggs,Groceries,East,Offline,5,1078.37,5391.85,Cash,C1387
+T00518,3/19/2024,Rice,Groceries,West,Offline,1,3086.84,3086.84,Cash,C8847
+T00519,9/24/2024,Bread,Groceries,West,Online,3,3350.09,10050.27,UPI,C6626
+T00520,11/6/2024,Lipstick,Beauty,West,Offline,7,3945.61,27619.27,Cash,C3715
+T00521,7/22/2024,Conditioner,Beauty,West,Offline,10,1248.69,12486.9,UPI,C1354
+T00522,5/20/2024,Cookware Set,Home & Kitchen,North,Offline,2,3766.41,7532.82,Net Banking,C8228
+T00523,9/16/2024,Perfume,Beauty,North,Offline,1,1968.62,1968.62,UPI,C1272
+T00524,3/26/2025,Jeans,Clothing,South,Offline,3,378.28,1134.84,Net Banking,C6560
+T00525,12/21/2024,T-Shirt,Clothing,East,Online,2,2244.58,4489.16,UPI,C4926
+T00526,10/24/2024,Hoodie,Clothing,North,Offline,9,1399.23,12593.07,Credit Card,C7352
+T00527,5/6/2025,Perfume,Beauty,North,Offline,9,3176.83,28591.47,UPI,C8686
+T00528,10/28/2024,Mixer,Home & Kitchen,South,Offline,5,1335.05,6675.25,UPI,C1287
+T00529,10/29/2024,Tablet,Electronics,North,Online,3,2730.55,8191.65,Credit Card,C5263
+T00530,2/4/2025,Cookware Set,Home & Kitchen,North,Online,5,3060.8,15304,Cash,C6481
+T00531,4/11/2024,Smartphone,Electronics,North,Offline,10,1623.65,16236.5,Credit Card,C7700
+T00532,3/8/2024,Shoes,Clothing,North,Online,3,1456.65,4369.95,Net Banking,C2144
+T00533,8/6/2024,Jacket,Clothing,East,Offline,8,4182.26,33458.08,Cash,C8052
+T00534,2/17/2025,Shampoo,Beauty,West,Online,3,2297.16,6891.48,Credit Card,C3420
+T00535,3/21/2025,Laptop,Electronics,South,Offline,1,2647.08,2647.08,Credit Card,C1024
+T00536,12/29/2024,Jeans,Clothing,North,Online,9,3142.01,28278.09,Net Banking,C7559
+T00537,4/15/2024,Water Bottle,Home & Kitchen,North,Offline,9,4677.9,42101.1,Cash,C6202
+T00538,8/12/2024,Rice,Groceries,North,Online,1,960.17,960.17,Credit Card,C1621
+T00539,3/17/2024,Face Wash,Beauty,South,Online,6,2993.63,17961.78,UPI,C3791
+T00540,4/14/2025,Mixer,Home & Kitchen,West,Offline,1,4610.78,4610.78,Cash,C6648
+T00541,10/3/2024,Chair,Home & Kitchen,West,Offline,8,596.34,4770.72,Credit Card,C8349
+T00542,10/1/2024,Smart Watch,Electronics,East,Offline,5,2745.6,13728,Net Banking,C1630
+T00543,1/8/2024,Chair,Home & Kitchen,North,Online,1,4887.84,4887.84,Credit Card,C4434
+T00544,1/2/2025,Milk,Groceries,West,Offline,9,683.28,6149.52,UPI,C5101
+T00545,10/2/2024,Jacket,Clothing,North,Online,3,1096.22,3288.66,Credit Card,C8206
+T00546,1/8/2025,Shampoo,Beauty,East,Offline,7,2579.39,18055.73,UPI,C4862
+T00547,2/28/2024,Hoodie,Clothing,North,Online,4,4593.67,18374.68,Credit Card,C3246
+T00548,5/6/2024,Jeans,Clothing,North,Offline,5,748.65,3743.25,UPI,C6603
+T00549,5/6/2025,Lamp,Home & Kitchen,North,Online,3,4338.21,13014.63,UPI,C6260
+T00550,3/27/2024,Jeans,Clothing,South,Offline,3,3160.89,9482.67,UPI,C6167
+T00551,8/4/2024,Jacket,Clothing,North,Offline,2,3179.86,6359.72,Cash,C5454
+T00552,1/20/2024,Coffee,Groceries,East,Online,2,781.12,1562.24,Cash,C3030
+T00553,5/12/2024,T-Shirt,Clothing,South,Offline,5,1617.84,8089.2,Net Banking,C9688
+T00554,9/15/2024,Shampoo,Beauty,South,Offline,1,4553.14,4553.14,Credit Card,C6063
+T00555,2/15/2024,Cookware Set,Home & Kitchen,North,Online,1,1112.86,1112.86,Net Banking,C9479
+T00556,6/20/2024,T-Shirt,Clothing,North,Offline,3,4511.79,13535.37,Credit Card,C4024
+T00557,10/10/2024,Perfume,Beauty,West,Online,10,744.91,7449.1,Net Banking,C3333
+T00558,5/2/2025,Smartphone,Electronics,West,Online,10,3045.26,30452.6,Cash,C1157
+T00559,12/9/2024,Smart Watch,Electronics,East,Offline,3,4779.42,14338.26,Cash,C1900
+T00560,11/4/2024,Tablet,Electronics,South,Offline,5,3831.33,19156.65,Net Banking,C8944
+T00561,4/30/2025,Perfume,Beauty,West,Offline,5,4477.9,22389.5,UPI,C9544
+T00562,8/23/2024,Eggs,Groceries,West,Offline,6,4364.21,26185.26,Net Banking,C6143
+T00563,12/25/2024,Cookware Set,Home & Kitchen,East,Online,4,2463.23,9852.92,Net Banking,C1838
+T00564,4/12/2024,Cookware Set,Home & Kitchen,North,Offline,5,2308.66,11543.3,Credit Card,C7896
+T00565,1/3/2025,Conditioner,Beauty,East,Online,4,772.66,3090.64,Cash,C2195
+T00566,8/30/2024,Water Bottle,Home & Kitchen,South,Online,4,4979.01,19916.04,UPI,C4881
+T00567,10/3/2024,Jacket,Clothing,East,Online,2,1139.19,2278.38,Cash,C8773
+T00568,5/2/2025,Smart Watch,Electronics,East,Online,7,1850.58,12954.06,Credit Card,C6634
+T00569,9/22/2024,Lipstick,Beauty,East,Offline,6,2230.08,13380.48,Net Banking,C2740
+T00570,1/25/2025,Headphones,Electronics,North,Offline,4,3431.91,13727.64,Credit Card,C8136
+T00571,7/28/2024,Chair,Home & Kitchen,North,Offline,9,3959.75,35637.75,Credit Card,C8873
+T00572,4/7/2025,Mixer,Home & Kitchen,West,Offline,6,1478.65,8871.9,Net Banking,C5665
+T00573,10/20/2024,Shoes,Clothing,North,Online,5,2609.33,13046.65,Credit Card,C3208
+T00574,11/10/2024,Eggs,Groceries,South,Offline,5,3280.42,16402.1,Cash,C7197
+T00575,8/16/2024,Smartphone,Electronics,East,Offline,9,2951.6,26564.4,UPI,C8731
+T00576,12/1/2024,Water Bottle,Home & Kitchen,North,Online,7,1414.27,9899.89,Net Banking,C8864
+T00577,5/16/2024,Jeans,Clothing,North,Offline,7,1926.48,13485.36,UPI,C3079
+T00578,4/15/2025,Laptop,Electronics,South,Online,3,4323.64,12970.92,Net Banking,C7644
+T00579,2/18/2024,Jeans,Clothing,North,Online,2,2085.87,4171.74,Net Banking,C3902
+T00580,2/2/2024,Lamp,Home & Kitchen,South,Online,10,4292.73,42927.3,Net Banking,C8911
+T00581,5/13/2025,Jeans,Clothing,South,Online,1,1105.15,1105.15,Cash,C1863
+T00582,6/20/2024,Hoodie,Clothing,West,Offline,10,1310.15,13101.5,Cash,C1806
+T00583,11/9/2024,Laptop,Electronics,South,Offline,5,2065.76,10328.8,Cash,C3048
+T00584,1/29/2025,Rice,Groceries,West,Online,2,3790.66,7581.32,Net Banking,C7850
+T00585,2/21/2025,Smartphone,Electronics,West,Offline,4,559.39,2237.56,UPI,C2228
+T00586,4/23/2025,Face Wash,Beauty,North,Offline,10,3471.74,34717.4,Net Banking,C7662
+T00587,7/28/2024,Lamp,Home & Kitchen,North,Online,3,2376.03,7128.09,Cash,C1573
+T00588,9/30/2024,Coffee,Groceries,North,Online,10,321.94,3219.4,Cash,C9637
+T00589,2/18/2025,Water Bottle,Home & Kitchen,South,Offline,9,4787.17,43084.53,Net Banking,C9045
+T00590,5/1/2024,Jeans,Clothing,North,Online,9,3426.19,30835.71,Net Banking,C3327
+T00591,3/12/2024,Smartphone,Electronics,East,Online,10,4617.05,46170.5,UPI,C5438
+T00592,11/13/2024,Eggs,Groceries,South,Online,7,4049.48,28346.36,Net Banking,C1492
+T00593,4/4/2025,Jacket,Clothing,North,Online,9,4165.18,37486.62,Cash,C1744
+T00594,1/1/2024,Lamp,Home & Kitchen,West,Offline,5,4794.07,23970.35,Cash,C1992
+T00595,4/22/2025,Headphones,Electronics,North,Offline,6,1390.48,8342.88,Credit Card,C2313
+T00596,1/17/2024,Water Bottle,Home & Kitchen,South,Offline,8,1897.12,15176.96,Net Banking,C8051
+T00597,2/25/2025,Shampoo,Beauty,North,Offline,4,2433.64,9734.56,Cash,C3941
+T00598,5/12/2024,Smartphone,Electronics,West,Online,9,2314.08,20826.72,Credit Card,C7022
+T00599,1/21/2024,Headphones,Electronics,South,Offline,5,2603.87,13019.35,Credit Card,C3335
+T00600,6/14/2024,Laptop,Electronics,South,Offline,1,3302.9,3302.9,Credit Card,C4519
+T00601,3/28/2025,Water Bottle,Home & Kitchen,North,Offline,6,1942.79,11656.74,Net Banking,C1326
+T00602,7/8/2024,Lamp,Home & Kitchen,East,Offline,1,3304.97,3304.97,UPI,C5417
+T00603,10/16/2024,Smart Watch,Electronics,West,Online,1,4964.33,4964.33,Cash,C9010
+T00604,2/28/2025,Jacket,Clothing,North,Offline,5,2411.2,12056,Net Banking,C6384
+T00605,8/29/2024,Laptop,Electronics,East,Online,6,882.79,5296.74,Credit Card,C8328
+T00606,9/1/2024,Shoes,Clothing,South,Offline,7,2020.64,14144.48,UPI,C1590
+T00607,11/21/2024,Jacket,Clothing,West,Offline,4,4567.51,18270.04,Cash,C5572
+T00608,4/13/2024,Lipstick,Beauty,West,Offline,7,1290.44,9033.08,UPI,C2086
+T00609,2/9/2024,Perfume,Beauty,North,Offline,1,4968.18,4968.18,Net Banking,C8428
+T00610,3/29/2024,Hoodie,Clothing,East,Online,10,4893.87,48938.7,Credit Card,C1123
+T00611,1/20/2024,Shampoo,Beauty,West,Offline,6,606.46,3638.76,Net Banking,C4715
+T00612,12/12/2024,Bread,Groceries,East,Offline,2,2303.74,4607.48,Net Banking,C2476
+T00613,11/2/2024,Bread,Groceries,South,Online,3,1424.16,4272.48,Credit Card,C2559
+T00614,4/15/2025,Conditioner,Beauty,South,Offline,9,2233.57,20102.13,Cash,C7698
+T00615,2/16/2024,Headphones,Electronics,West,Online,6,4804.21,28825.26,Net Banking,C9951
+T00616,7/30/2024,Smart Watch,Electronics,South,Online,9,1471.28,13241.52,UPI,C3999
+T00617,2/24/2025,Jeans,Clothing,South,Offline,2,695.19,1390.38,Cash,C2739
+T00618,1/16/2024,Milk,Groceries,West,Offline,3,3726.51,11179.53,Net Banking,C1216
+T00619,2/18/2025,Lipstick,Beauty,East,Online,10,2798.8,27988,Credit Card,C6742
+T00620,9/10/2024,Eggs,Groceries,West,Offline,8,2742.53,21940.24,Credit Card,C8255
+T00621,8/17/2024,T-Shirt,Clothing,West,Online,8,2802.69,22421.52,Cash,C6138
+T00622,3/5/2024,Coffee,Groceries,West,Online,7,1336.26,9353.82,UPI,C5732
+T00623,1/7/2025,Laptop,Electronics,South,Offline,7,1845.29,12917.03,Cash,C4287
+T00624,10/3/2024,Laptop,Electronics,West,Offline,3,3376.78,10130.34,Cash,C6151
+T00625,3/8/2024,Perfume,Beauty,West,Online,8,4531.3,36250.4,UPI,C8834
+T00626,4/17/2024,Water Bottle,Home & Kitchen,East,Offline,10,1107.26,11072.6,Credit Card,C2175
+T00627,1/9/2024,Shoes,Clothing,North,Online,10,767.8,7678,UPI,C1949
+T00628,2/29/2024,Smart Watch,Electronics,West,Online,4,1576.35,6305.4,Cash,C5096
+T00629,2/22/2024,Lamp,Home & Kitchen,South,Offline,1,3473.43,3473.43,Credit Card,C5797
+T00630,1/4/2025,Jacket,Clothing,South,Offline,10,939.91,9399.1,Net Banking,C2101
+T00631,8/24/2024,Conditioner,Beauty,North,Online,7,2874.79,20123.53,Net Banking,C5438
+T00632,3/3/2024,Water Bottle,Home & Kitchen,West,Offline,4,3762.64,15050.56,Credit Card,C4221
+T00633,10/18/2024,T-Shirt,Clothing,West,Online,2,1254.31,2508.62,Net Banking,C9058
+T00634,6/26/2024,Eggs,Groceries,South,Online,5,3913.56,19567.8,Net Banking,C4793
+T00635,5/14/2025,Shampoo,Beauty,North,Online,9,4576.68,41190.12,Credit Card,C6565
+T00636,1/21/2025,Smartphone,Electronics,West,Offline,1,1343.25,1343.25,Cash,C6902
+T00637,11/27/2024,Smartphone,Electronics,East,Offline,4,4778.9,19115.6,UPI,C1967
+T00638,7/23/2024,Chair,Home & Kitchen,East,Offline,6,3408.42,20450.52,Cash,C1533
+T00639,2/20/2025,Cookware Set,Home & Kitchen,North,Online,8,384.6,3076.8,Cash,C5851
+T00640,7/11/2024,Cookware Set,Home & Kitchen,South,Offline,3,4821.23,14463.69,Credit Card,C5577
+T00641,6/29/2024,Coffee,Groceries,North,Offline,9,3063.39,27570.51,Net Banking,C6637
+T00642,2/23/2024,Smartphone,Electronics,North,Online,1,1017.31,1017.31,UPI,C4724
+T00643,9/26/2024,Conditioner,Beauty,East,Offline,10,3064.15,30641.5,UPI,C3412
+T00644,5/1/2024,Cookware Set,Home & Kitchen,West,Offline,9,838.19,7543.71,Net Banking,C7296
+T00645,8/27/2024,Mixer,Home & Kitchen,North,Offline,7,1702.14,11914.98,Credit Card,C8340
+T00646,12/28/2024,Cookware Set,Home & Kitchen,East,Offline,9,1425.01,12825.09,UPI,C9219
+T00647,1/7/2025,Jeans,Clothing,South,Offline,3,540.17,1620.51,Cash,C5655
+T00648,12/5/2024,Coffee,Groceries,South,Online,1,541.02,541.02,Cash,C5849
+T00649,5/12/2025,Milk,Groceries,North,Online,3,4714.39,14143.17,UPI,C8378
+T00650,5/30/2024,Chair,Home & Kitchen,East,Offline,6,2411.53,14469.18,UPI,C6953
+T00651,12/30/2024,T-Shirt,Clothing,East,Online,9,1961.96,17657.64,Cash,C8165
+T00652,1/9/2025,Chair,Home & Kitchen,East,Offline,5,3360.16,16800.8,UPI,C6486
+T00653,9/10/2024,Bread,Groceries,West,Online,9,3761.65,33854.85,Credit Card,C7800
+T00654,10/7/2024,Shampoo,Beauty,East,Offline,4,3381.85,13527.4,Credit Card,C6836
+T00655,10/15/2024,Lamp,Home & Kitchen,West,Online,8,3795.14,30361.12,Cash,C3530
+T00656,12/31/2024,Cookware Set,Home & Kitchen,North,Offline,2,3427,6854,UPI,C2378
+T00657,1/18/2025,Lamp,Home & Kitchen,South,Offline,5,1920.14,9600.7,Credit Card,C7009
+T00658,11/3/2024,Chair,Home & Kitchen,West,Online,10,2324.84,23248.4,UPI,C2110
+T00659,1/2/2024,Tablet,Electronics,East,Online,3,2534.79,7604.37,Net Banking,C2068
+T00660,11/5/2024,Headphones,Electronics,South,Online,3,1430.37,4291.11,Net Banking,C1179
+T00661,4/13/2025,Chair,Home & Kitchen,West,Online,1,3885.78,3885.78,UPI,C7353
+T00662,1/29/2025,Hoodie,Clothing,North,Online,3,3515.45,10546.35,UPI,C6743
+T00663,5/15/2024,Laptop,Electronics,South,Online,1,4828.67,4828.67,Net Banking,C6382
+T00664,2/23/2024,Mixer,Home & Kitchen,North,Online,6,2094.42,12566.52,Net Banking,C9293
+T00665,7/22/2024,Smartphone,Electronics,East,Offline,4,1423.55,5694.2,Cash,C9064
+T00666,6/19/2024,Cookware Set,Home & Kitchen,South,Online,2,514.36,1028.72,Credit Card,C5448
+T00667,2/15/2024,Jacket,Clothing,West,Online,9,3862.03,34758.27,Net Banking,C7091
+T00668,11/30/2024,Conditioner,Beauty,South,Offline,3,2158.64,6475.92,Credit Card,C5983
+T00669,3/5/2024,T-Shirt,Clothing,South,Online,9,3671.62,33044.58,Credit Card,C3623
+T00670,5/5/2025,Milk,Groceries,West,Offline,4,1648.06,6592.24,Cash,C9224
+T00671,3/18/2024,Tablet,Electronics,East,Online,7,405.69,2839.83,Net Banking,C7277
+T00672,3/8/2024,Headphones,Electronics,East,Offline,9,3929.88,35368.92,UPI,C4098
+T00673,2/9/2025,Rice,Groceries,North,Online,4,2590.1,10360.4,Cash,C2543
+T00674,7/29/2024,Smartphone,Electronics,West,Offline,4,1299.74,5198.96,UPI,C6794
+T00675,11/15/2024,Smart Watch,Electronics,West,Online,3,2929.04,8787.12,Credit Card,C9293
+T00676,1/8/2025,Lamp,Home & Kitchen,West,Online,6,2495.78,14974.68,UPI,C8630
+T00677,2/16/2025,Milk,Groceries,South,Offline,2,4499.33,8998.66,Net Banking,C2262
+T00678,8/16/2024,Headphones,Electronics,North,Offline,1,1762.16,1762.16,Net Banking,C8111
+T00679,1/16/2024,Coffee,Groceries,South,Online,10,4088.12,40881.2,Cash,C9702
+T00680,12/26/2024,Cookware Set,Home & Kitchen,East,Offline,2,452.47,904.94,UPI,C6963
+T00681,3/27/2024,Mixer,Home & Kitchen,North,Online,2,3788.39,7576.78,Net Banking,C5211
+T00682,5/27/2024,Shampoo,Beauty,East,Offline,2,3161.16,6322.32,Credit Card,C7234
+T00683,4/27/2024,Lipstick,Beauty,East,Offline,6,3717.4,22304.4,Credit Card,C3734
+T00684,2/10/2025,Shampoo,Beauty,North,Online,3,3210.82,9632.46,Cash,C2723
+T00685,8/20/2024,Chair,Home & Kitchen,South,Offline,2,815.11,1630.22,Net Banking,C4886
+T00686,4/16/2024,Perfume,Beauty,South,Offline,1,3615.86,3615.86,Credit Card,C1424
+T00687,7/9/2024,Headphones,Electronics,South,Offline,7,2092.72,14649.04,Cash,C2333
+T00688,3/14/2025,Mixer,Home & Kitchen,North,Online,10,397.84,3978.4,Cash,C8477
+T00689,5/18/2024,Conditioner,Beauty,West,Offline,1,960.89,960.89,Credit Card,C7344
+T00690,9/4/2024,Rice,Groceries,East,Online,2,165.6,331.2,UPI,C4202
+T00691,4/6/2024,Eggs,Groceries,South,Offline,10,691.1,6911,Net Banking,C8713
+T00692,1/16/2025,Jeans,Clothing,West,Offline,5,2747.96,13739.8,UPI,C1023
+T00693,1/31/2025,Lipstick,Beauty,East,Online,7,4819.72,33738.04,Net Banking,C6489
+T00694,4/4/2025,Smart Watch,Electronics,East,Online,10,3290.99,32909.9,Net Banking,C1222
+T00695,1/19/2024,Coffee,Groceries,North,Online,7,3696.97,25878.79,Cash,C5443
+T00696,7/22/2024,Cookware Set,Home & Kitchen,South,Online,9,489.65,4406.85,Cash,C6304
+T00697,8/24/2024,Shoes,Clothing,North,Offline,4,1443.46,5773.84,UPI,C3616
+T00698,12/2/2024,Lamp,Home & Kitchen,South,Offline,4,2070.6,8282.4,Net Banking,C5800
+T00699,9/17/2024,Lipstick,Beauty,East,Online,2,441.37,882.74,UPI,C5981
+T00700,4/23/2024,Jacket,Clothing,South,Offline,10,1004.86,10048.6,Cash,C7570
+T00701,1/1/2024,Shampoo,Beauty,West,Offline,5,3679.95,18399.75,Net Banking,C1365
+T00702,2/14/2024,Face Wash,Beauty,South,Online,6,2471.24,14827.44,UPI,C7748
+T00703,3/16/2024,Chair,Home & Kitchen,South,Offline,1,3841.68,3841.68,Net Banking,C5502
+T00704,1/18/2025,Mixer,Home & Kitchen,East,Online,9,2439.84,21958.56,Credit Card,C5840
+T00705,6/26/2024,Mixer,Home & Kitchen,West,Offline,1,3111.51,3111.51,Credit Card,C7255
+T00706,3/26/2025,Smart Watch,Electronics,South,Online,4,3217.35,12869.4,UPI,C1398
+T00707,9/10/2024,Cookware Set,Home & Kitchen,East,Offline,4,2608.12,10432.48,Cash,C6459
+T00708,1/31/2025,Conditioner,Beauty,North,Online,8,1106.91,8855.28,UPI,C9983
+T00709,3/29/2024,Shoes,Clothing,East,Offline,9,1052.78,9475.02,Net Banking,C2916
+T00710,5/17/2024,Face Wash,Beauty,West,Online,5,2311.87,11559.35,Credit Card,C1310
+T00711,1/1/2025,Perfume,Beauty,East,Offline,3,3609.79,10829.37,Net Banking,C7511
+T00712,5/15/2024,T-Shirt,Clothing,East,Online,4,2594.51,10378.04,Net Banking,C1542
+T00713,3/26/2025,Milk,Groceries,South,Online,6,2372.63,14235.78,Cash,C9872
+T00714,10/3/2024,Cookware Set,Home & Kitchen,East,Online,5,1352.7,6763.5,UPI,C7965
+T00715,8/23/2024,Jacket,Clothing,West,Offline,4,2281.52,9126.08,Credit Card,C1757
+T00716,1/23/2025,Mixer,Home & Kitchen,West,Offline,4,3527.9,14111.6,Credit Card,C4935
+T00717,3/9/2025,Eggs,Groceries,West,Offline,9,2005.63,18050.67,Credit Card,C3785
+T00718,8/30/2024,Coffee,Groceries,North,Offline,5,1983.88,9919.4,UPI,C7754
+T00719,4/20/2024,Chair,Home & Kitchen,South,Online,4,3191.53,12766.12,UPI,C2411
+T00720,3/19/2025,Milk,Groceries,South,Offline,10,2457.86,24578.6,UPI,C1799
+T00721,1/21/2025,Face Wash,Beauty,South,Online,4,1881.92,7527.68,Net Banking,C3097
+T00722,5/13/2025,T-Shirt,Clothing,South,Online,10,2423.7,24237,Credit Card,C3693
+T00723,4/4/2024,Lipstick,Beauty,South,Offline,9,2117.25,19055.25,Net Banking,C1884
+T00724,8/25/2024,Smart Watch,Electronics,East,Online,4,4679.62,18718.48,Credit Card,C2630
+T00725,7/29/2024,Water Bottle,Home & Kitchen,North,Offline,6,1163.14,6978.84,Credit Card,C7731
+T00726,3/1/2025,Jacket,Clothing,North,Offline,1,1092.64,1092.64,UPI,C6170
+T00727,4/1/2024,Lipstick,Beauty,East,Offline,10,2393.6,23936,Cash,C1874
+T00728,8/3/2024,Laptop,Electronics,West,Offline,8,2210.71,17685.68,UPI,C5806
+T00729,12/9/2024,Bread,Groceries,North,Online,2,2386.31,4772.62,Net Banking,C2731
+T00730,4/3/2024,Chair,Home & Kitchen,North,Online,4,405.12,1620.48,Net Banking,C3380
+T00731,2/12/2025,Shoes,Clothing,East,Offline,10,593.16,5931.6,Net Banking,C8604
+T00732,6/15/2024,Mixer,Home & Kitchen,West,Offline,9,4905.56,44150.04,Cash,C1648
+T00733,12/18/2024,Conditioner,Beauty,East,Offline,7,929.9,6509.3,Net Banking,C7972
+T00734,12/22/2024,Lamp,Home & Kitchen,East,Offline,4,2577.6,10310.4,Credit Card,C7257
+T00735,3/24/2025,Coffee,Groceries,South,Online,10,1330.22,13302.2,Net Banking,C8463
+T00736,7/9/2024,Perfume,Beauty,South,Offline,8,2960.55,23684.4,Credit Card,C5430
+T00737,1/26/2025,Conditioner,Beauty,West,Offline,7,3127.53,21892.71,Cash,C8765
+T00738,1/18/2024,Conditioner,Beauty,East,Offline,10,1965.43,19654.3,Credit Card,C8739
+T00739,8/17/2024,Mixer,Home & Kitchen,West,Offline,5,1709.45,8547.25,Credit Card,C3078
+T00740,9/3/2024,Lamp,Home & Kitchen,South,Online,5,838.61,4193.05,Cash,C8363
+T00741,3/15/2024,Face Wash,Beauty,East,Offline,9,4605.42,41448.78,UPI,C9337
+T00742,3/11/2024,Shoes,Clothing,South,Offline,7,4864.85,34053.95,Cash,C3573
+T00743,4/19/2025,Chair,Home & Kitchen,North,Offline,5,3515.95,17579.75,Credit Card,C3935
+T00744,6/12/2024,Laptop,Electronics,South,Offline,6,1987.06,11922.36,UPI,C3900
+T00745,7/5/2024,Cookware Set,Home & Kitchen,South,Offline,6,2236.86,13421.16,Credit Card,C4097
+T00746,10/11/2024,Shoes,Clothing,West,Online,5,1053.65,5268.25,Cash,C6604
+T00747,10/10/2024,Face Wash,Beauty,South,Offline,5,649.34,3246.7,Cash,C1259
+T00748,2/19/2024,Smartphone,Electronics,North,Online,7,2010.66,14074.62,Net Banking,C3430
+T00749,2/21/2025,Rice,Groceries,West,Offline,2,3265.85,6531.7,Credit Card,C7530
+T00750,10/11/2024,Chair,Home & Kitchen,East,Offline,2,1784.3,3568.6,UPI,C3499
+T00751,8/15/2024,Shampoo,Beauty,West,Online,10,1953.71,19537.1,Credit Card,C8305
+T00752,7/10/2024,Rice,Groceries,East,Offline,3,4007.81,12023.43,Credit Card,C1709
+T00753,2/10/2025,Conditioner,Beauty,East,Offline,1,4399.53,4399.53,Net Banking,C4232
+T00754,9/4/2024,Headphones,Electronics,South,Offline,1,2302.82,2302.82,Net Banking,C7172
+T00755,3/6/2024,Hoodie,Clothing,West,Offline,8,1139.26,9114.08,UPI,C6542
+T00756,4/6/2025,Water Bottle,Home & Kitchen,South,Online,4,172.71,690.84,Credit Card,C9615
+T00757,7/15/2024,Shampoo,Beauty,South,Online,10,4044.75,40447.5,Cash,C6207
+T00758,1/18/2024,Bread,Groceries,South,Online,1,645.71,645.71,Credit Card,C9353
+T00759,8/6/2024,Jeans,Clothing,West,Online,2,1867.9,3735.8,UPI,C5224
+T00760,10/31/2024,Perfume,Beauty,North,Offline,2,1277.44,2554.88,Credit Card,C6388
+T00761,3/21/2024,Jeans,Clothing,East,Online,6,3000.5,18003,UPI,C8791
+T00762,9/4/2024,Face Wash,Beauty,South,Online,3,3920.83,11762.49,Net Banking,C6849
+T00763,4/25/2024,Smart Watch,Electronics,West,Online,10,2662.7,26627,Cash,C5795
+T00764,1/28/2025,Perfume,Beauty,South,Offline,6,1988.73,11932.38,UPI,C5112
+T00765,1/1/2024,Coffee,Groceries,South,Offline,9,3590.14,32311.26,Credit Card,C2187
+T00766,10/13/2024,Headphones,Electronics,East,Offline,6,1633.51,9801.06,UPI,C6756
+T00767,8/6/2024,Tablet,Electronics,West,Offline,7,1177.68,8243.76,Net Banking,C7402
+T00768,8/23/2024,Lamp,Home & Kitchen,East,Offline,1,436.22,436.22,UPI,C6403
+T00769,4/1/2025,Smart Watch,Electronics,West,Online,7,674.08,4718.56,UPI,C3529
+T00770,11/1/2024,Conditioner,Beauty,North,Online,6,178.61,1071.66,UPI,C2876
+T00771,10/20/2024,Coffee,Groceries,North,Offline,8,2785.56,22284.48,UPI,C1744
+T00772,9/9/2024,Tablet,Electronics,West,Online,4,868.74,3474.96,Cash,C8839
+T00773,3/25/2024,Headphones,Electronics,East,Offline,5,425.71,2128.55,Credit Card,C9054
+T00774,4/5/2025,Chair,Home & Kitchen,North,Offline,4,389.14,1556.56,Cash,C5972
+T00775,7/22/2024,Eggs,Groceries,East,Online,3,4296.21,12888.63,Cash,C6806
+T00776,4/21/2025,Headphones,Electronics,East,Online,8,2660.96,21287.68,UPI,C6690
+T00777,9/17/2024,Perfume,Beauty,South,Online,4,4576.74,18306.96,Credit Card,C7295
+T00778,9/25/2024,Rice,Groceries,West,Offline,5,4038.89,20194.45,UPI,C2750
+T00779,6/14/2024,Hoodie,Clothing,South,Offline,7,3053.36,21373.52,UPI,C8075
+T00780,7/19/2024,Mixer,Home & Kitchen,West,Offline,9,2551.3,22961.7,UPI,C3157
+T00781,2/10/2025,Chair,Home & Kitchen,West,Offline,10,3926.76,39267.6,UPI,C5341
+T00782,3/4/2025,Smart Watch,Electronics,East,Online,6,3494.87,20969.22,Credit Card,C3120
+T00783,6/24/2024,Conditioner,Beauty,East,Online,4,3801.77,15207.08,Credit Card,C7187
+T00784,7/25/2024,Shoes,Clothing,South,Offline,1,1288.97,1288.97,Credit Card,C3189
+T00785,4/29/2024,Shoes,Clothing,West,Offline,7,2453.89,17177.23,Credit Card,C1134
+T00786,5/14/2025,Perfume,Beauty,North,Offline,7,4471.85,31302.95,Cash,C8979
+T00787,3/17/2025,Coffee,Groceries,East,Online,1,4175.52,4175.52,UPI,C5861
+T00788,12/22/2024,Water Bottle,Home & Kitchen,West,Offline,4,1340.83,5363.32,Net Banking,C5045
+T00789,3/4/2024,Conditioner,Beauty,South,Offline,9,2490.44,22413.96,Net Banking,C5214
+T00790,8/14/2024,Lamp,Home & Kitchen,West,Online,9,2621.36,23592.24,Cash,C3469
+T00791,8/29/2024,Jeans,Clothing,North,Offline,10,3391.48,33914.8,Net Banking,C8844
+T00792,4/12/2024,T-Shirt,Clothing,East,Offline,1,355.37,355.37,Credit Card,C4558
+T00793,8/24/2024,Shoes,Clothing,South,Online,3,2649.72,7949.16,Cash,C9513
+T00794,4/1/2024,Milk,Groceries,North,Online,5,4958.57,24792.85,Net Banking,C9288
+T00795,1/31/2025,Perfume,Beauty,West,Offline,3,3838.31,11514.93,UPI,C8793
+T00796,4/11/2024,Tablet,Electronics,North,Offline,5,2070.3,10351.5,Cash,C4382
+T00797,7/17/2024,Chair,Home & Kitchen,South,Offline,7,537.57,3762.99,UPI,C5247
+T00798,6/29/2024,Hoodie,Clothing,North,Online,2,926.49,1852.98,Net Banking,C2863
+T00799,2/1/2025,Chair,Home & Kitchen,East,Online,1,1732.32,1732.32,UPI,C3159
+T00800,9/23/2024,Jacket,Clothing,East,Offline,6,443.84,2663.04,Net Banking,C7380
+T00801,3/16/2024,Shampoo,Beauty,East,Offline,2,560.51,1121.02,UPI,C1046
+T00802,7/20/2024,Shoes,Clothing,North,Offline,8,128.03,1024.24,UPI,C2418
+T00803,6/21/2024,T-Shirt,Clothing,North,Online,4,151.81,607.24,Cash,C4821
+T00804,8/14/2024,Milk,Groceries,West,Offline,10,1196.49,11964.9,UPI,C7121
+T00805,1/27/2025,Smartphone,Electronics,North,Offline,4,2392.82,9571.28,Cash,C7096
+T00806,11/1/2024,Jacket,Clothing,South,Online,4,2753.38,11013.52,Net Banking,C9959
+T00807,3/11/2024,Tablet,Electronics,North,Online,10,2674.52,26745.2,Credit Card,C1485
+T00808,6/11/2024,T-Shirt,Clothing,West,Online,10,1537.24,15372.4,Credit Card,C8997
+T00809,7/19/2024,Hoodie,Clothing,East,Online,7,3900.06,27300.42,Credit Card,C8386
+T00810,1/19/2025,Jacket,Clothing,South,Online,9,711.25,6401.25,Cash,C5836
+T00811,12/26/2024,Face Wash,Beauty,North,Offline,5,4500.66,22503.3,Net Banking,C1600
+T00812,3/6/2024,Laptop,Electronics,East,Offline,5,300.84,1504.2,Credit Card,C5622
+T00813,7/27/2024,Water Bottle,Home & Kitchen,West,Offline,5,1295.98,6479.9,Credit Card,C9812
+T00814,8/18/2024,Eggs,Groceries,South,Offline,7,1192.39,8346.73,Net Banking,C6530
+T00815,11/13/2024,Headphones,Electronics,West,Online,2,3353.29,6706.58,Net Banking,C7291
+T00816,3/20/2024,T-Shirt,Clothing,West,Offline,9,151.51,1363.59,Credit Card,C8542
+T00817,9/9/2024,Lipstick,Beauty,North,Online,8,2015.87,16126.96,Cash,C9309
+T00818,6/30/2024,Laptop,Electronics,North,Online,3,3841.53,11524.59,Net Banking,C5549
+T00819,9/3/2024,Face Wash,Beauty,South,Offline,10,1589.36,15893.6,Cash,C2558
+T00820,2/10/2024,Hoodie,Clothing,North,Offline,3,3116.4,9349.2,Credit Card,C2201
+T00821,2/13/2024,Lipstick,Beauty,West,Offline,9,1310.78,11797.02,Credit Card,C3781
+T00822,10/14/2024,T-Shirt,Clothing,West,Offline,7,4986.27,34903.89,Net Banking,C1000
+T00823,5/4/2024,Shampoo,Beauty,West,Online,8,3748.51,29988.08,Net Banking,C2146
+T00824,5/28/2024,Laptop,Electronics,South,Offline,5,4796.77,23983.85,Credit Card,C1978
+T00825,3/21/2024,Face Wash,Beauty,West,Offline,5,3953.22,19766.1,UPI,C8536
+T00826,3/11/2025,Tablet,Electronics,South,Offline,9,3246.4,29217.6,UPI,C5867
+T00827,3/9/2025,Chair,Home & Kitchen,West,Offline,10,4794.29,47942.9,UPI,C8997
+T00828,7/7/2024,Lipstick,Beauty,North,Online,1,3658.89,3658.89,UPI,C9114
+T00829,10/21/2024,Mixer,Home & Kitchen,South,Offline,10,4466.22,44662.2,Net Banking,C8043
+T00830,3/15/2025,Smart Watch,Electronics,West,Offline,5,3925.03,19625.15,Net Banking,C3044
+T00831,10/12/2024,Jeans,Clothing,West,Online,8,673.49,5387.92,Credit Card,C2776
+T00832,2/28/2025,Hoodie,Clothing,East,Online,2,2126.41,4252.82,UPI,C9386
+T00833,4/11/2024,Face Wash,Beauty,North,Offline,9,4545.6,40910.4,Cash,C7062
+T00834,10/4/2024,Face Wash,Beauty,East,Offline,5,3815.46,19077.3,Net Banking,C8081
+T00835,6/7/2024,Chair,Home & Kitchen,North,Offline,2,2815.23,5630.46,Net Banking,C7184
+T00836,7/23/2024,Perfume,Beauty,North,Online,2,2502.89,5005.78,Credit Card,C3132
+T00837,4/22/2024,Hoodie,Clothing,West,Online,8,942.17,7537.36,Cash,C6111
+T00838,12/21/2024,Tablet,Electronics,South,Offline,8,4294.24,34353.92,Cash,C1884
+T00839,4/27/2025,Water Bottle,Home & Kitchen,East,Offline,7,2616.65,18316.55,Net Banking,C1075
+T00840,11/2/2024,Chair,Home & Kitchen,South,Offline,6,4616.65,27699.9,Net Banking,C7640
+T00841,3/19/2025,Laptop,Electronics,North,Offline,2,3404.07,6808.14,Cash,C1655
+T00842,2/7/2025,Coffee,Groceries,West,Online,7,3176.75,22237.25,UPI,C5805
+T00843,8/3/2024,Tablet,Electronics,West,Offline,7,3951.98,27663.86,Cash,C9749
+T00844,4/2/2024,Rice,Groceries,West,Offline,8,2313.36,18506.88,Credit Card,C9828
+T00845,5/5/2025,Headphones,Electronics,West,Offline,6,3199.98,19199.88,Cash,C5567
+T00846,6/28/2024,Chair,Home & Kitchen,South,Offline,7,3210.5,22473.5,Credit Card,C2443
+T00847,10/6/2024,Headphones,Electronics,North,Online,6,664.63,3987.78,Net Banking,C9943
+T00848,5/5/2024,Mixer,Home & Kitchen,North,Online,7,982.02,6874.14,Cash,C3477
+T00849,4/6/2024,Lamp,Home & Kitchen,East,Offline,5,1604.86,8024.3,Net Banking,C4406
+T00850,7/30/2024,Shampoo,Beauty,North,Online,9,2338.64,21047.76,UPI,C7059
+T00851,10/22/2024,Jeans,Clothing,North,Offline,5,715.91,3579.55,Credit Card,C7032
+T00852,5/1/2024,Headphones,Electronics,East,Online,10,1068.51,10685.1,Credit Card,C8789
+T00853,2/15/2024,Laptop,Electronics,West,Online,3,2065.67,6197.01,Credit Card,C1400
+T00854,2/4/2025,Tablet,Electronics,West,Online,5,2076.95,10384.75,Net Banking,C2748
+T00855,4/11/2025,Bread,Groceries,North,Offline,9,1823.71,16413.39,Cash,C2697
+T00856,5/28/2024,Eggs,Groceries,North,Offline,3,4857.26,14571.78,UPI,C8304
+T00857,1/21/2025,Shoes,Clothing,East,Offline,2,2126.8,4253.6,Cash,C7594
+T00858,1/26/2025,Lamp,Home & Kitchen,West,Online,10,4967.17,49671.7,UPI,C9944
+T00859,6/18/2024,Shampoo,Beauty,East,Offline,8,4095.77,32766.16,UPI,C1185
+T00860,12/9/2024,Conditioner,Beauty,East,Online,5,1087.85,5439.25,Net Banking,C9539
+T00861,5/10/2025,Rice,Groceries,North,Online,3,1996.56,5989.68,UPI,C4616
+T00862,10/23/2024,Rice,Groceries,West,Online,9,4896.73,44070.57,Credit Card,C1719
+T00863,2/4/2025,Jeans,Clothing,West,Offline,7,2829.89,19809.23,Cash,C3903
+T00864,3/28/2024,Laptop,Electronics,East,Online,4,4213.51,16854.04,UPI,C5312
+T00865,8/29/2024,Face Wash,Beauty,North,Offline,10,1279.85,12798.5,Credit Card,C7443
+T00866,4/19/2025,Coffee,Groceries,West,Offline,1,3501.27,3501.27,Cash,C8852
+T00867,2/11/2024,Bread,Groceries,South,Online,1,1804.38,1804.38,Cash,C6719
+T00868,4/14/2024,Chair,Home & Kitchen,North,Online,10,3625.29,36252.9,Credit Card,C3738
+T00869,10/26/2024,Chair,Home & Kitchen,East,Offline,4,4175.11,16700.44,UPI,C7271
+T00870,11/2/2024,T-Shirt,Clothing,South,Online,8,2418.99,19351.92,UPI,C5250
+T00871,6/3/2024,Cookware Set,Home & Kitchen,South,Offline,3,1713.35,5140.05,Net Banking,C8333
+T00872,10/9/2024,Bread,Groceries,West,Offline,6,3579.32,21475.92,Cash,C4906
+T00873,5/1/2025,Headphones,Electronics,South,Offline,1,4587.24,4587.24,Net Banking,C4763
+T00874,4/9/2024,Perfume,Beauty,North,Online,10,2135,21350,Net Banking,C7353
+T00875,7/19/2024,Conditioner,Beauty,East,Online,1,2157.29,2157.29,Cash,C6566
+T00876,6/2/2024,Rice,Groceries,West,Offline,8,3133.84,25070.72,Cash,C1930
+T00877,9/8/2024,Conditioner,Beauty,West,Online,4,3697.34,14789.36,Credit Card,C4572
+T00878,4/8/2025,Chair,Home & Kitchen,South,Online,7,4151.38,29059.66,UPI,C8940
+T00879,9/20/2024,Cookware Set,Home & Kitchen,East,Offline,9,4936.23,44426.07,Credit Card,C6132
+T00880,1/31/2024,Mixer,Home & Kitchen,East,Offline,9,4435.86,39922.74,Cash,C1142
+T00881,5/20/2024,Conditioner,Beauty,North,Offline,9,3889.96,35009.64,UPI,C3603
+T00882,4/23/2025,Jeans,Clothing,North,Online,8,642.86,5142.88,Credit Card,C9226
+T00883,4/26/2025,Conditioner,Beauty,South,Offline,5,679.97,3399.85,Credit Card,C7124
+T00884,8/11/2024,T-Shirt,Clothing,West,Online,7,776.54,5435.78,Credit Card,C3325
+T00885,6/26/2024,Face Wash,Beauty,South,Online,3,2751.05,8253.15,Cash,C5401
+T00886,4/16/2024,Coffee,Groceries,South,Online,6,3473.07,20838.42,UPI,C5794
+T00887,1/1/2025,Hoodie,Clothing,North,Offline,6,3957.58,23745.48,Credit Card,C8062
+T00888,4/1/2025,Chair,Home & Kitchen,North,Online,7,4843.23,33902.61,Net Banking,C2730
+T00889,5/9/2025,Headphones,Electronics,North,Offline,4,267.33,1069.32,Net Banking,C3062
+T00890,3/30/2025,Laptop,Electronics,East,Online,7,2004.21,14029.47,Net Banking,C2641
+T00891,1/16/2025,Hoodie,Clothing,South,Online,9,1320.88,11887.92,UPI,C2638
+T00892,1/27/2024,Jacket,Clothing,South,Online,3,1445.66,4336.98,UPI,C3842
+T00893,2/18/2025,Face Wash,Beauty,East,Offline,6,695.29,4171.74,Net Banking,C9636
+T00894,4/14/2024,Lamp,Home & Kitchen,West,Online,9,4705.23,42347.07,UPI,C1275
+T00895,2/12/2024,Hoodie,Clothing,West,Online,4,3230.28,12921.12,Net Banking,C4492
+T00896,9/15/2024,Hoodie,Clothing,South,Offline,9,215.71,1941.39,UPI,C1490
+T00897,3/12/2024,Mixer,Home & Kitchen,South,Online,3,3978.62,11935.86,Cash,C4065
+T00898,4/3/2024,Hoodie,Clothing,North,Offline,4,534.67,2138.68,UPI,C7023
+T00899,4/22/2024,Laptop,Electronics,West,Online,2,4810.99,9621.98,UPI,C2160
+T00900,6/6/2024,Eggs,Groceries,North,Offline,6,4043.98,24263.88,Cash,C2605
+T00901,10/28/2024,Eggs,Groceries,West,Offline,3,531.1,1593.3,Cash,C7856
+T00902,8/25/2024,Shampoo,Beauty,East,Online,5,1876.74,9383.7,Credit Card,C9889
+T00903,7/14/2024,Perfume,Beauty,South,Offline,7,1070.32,7492.24,UPI,C8255
+T00904,2/8/2025,Perfume,Beauty,East,Offline,2,725.54,1451.08,Cash,C5672
+T00905,4/12/2024,Smartphone,Electronics,East,Online,10,4446.35,44463.5,Net Banking,C2626
+T00906,2/3/2024,Perfume,Beauty,South,Offline,1,3860.59,3860.59,Credit Card,C6923
+T00907,11/15/2024,Perfume,Beauty,East,Offline,4,235.27,941.08,Cash,C9386
+T00908,10/1/2024,Lamp,Home & Kitchen,North,Online,4,2979.78,11919.12,UPI,C1674
+T00909,7/15/2024,Shoes,Clothing,North,Online,5,754.28,3771.4,UPI,C8986
+T00910,11/30/2024,Shampoo,Beauty,East,Online,4,2984.2,11936.8,Cash,C3733
+T00911,2/26/2024,Jacket,Clothing,East,Online,7,4669.56,32686.92,Net Banking,C4157
+T00912,10/21/2024,Chair,Home & Kitchen,West,Online,5,429.54,2147.7,Net Banking,C4067
+T00913,12/26/2024,Bread,Groceries,East,Offline,3,3718.43,11155.29,Credit Card,C1215
+T00914,9/9/2024,Chair,Home & Kitchen,South,Offline,8,950.54,7604.32,Cash,C6815
+T00915,3/25/2025,Perfume,Beauty,South,Offline,4,1034.53,4138.12,UPI,C8691
+T00916,1/3/2024,Laptop,Electronics,East,Offline,8,116.27,930.16,Credit Card,C1051
+T00917,3/16/2025,Smart Watch,Electronics,North,Online,3,3436.71,10310.13,Credit Card,C8517
+T00918,4/26/2024,Lamp,Home & Kitchen,South,Online,10,3990.64,39906.4,Cash,C3122
+T00919,5/29/2024,Perfume,Beauty,North,Online,9,1079.12,9712.08,Net Banking,C2211
+T00920,10/28/2024,Coffee,Groceries,South,Offline,1,442.97,442.97,Cash,C3291
+T00921,1/7/2025,Shampoo,Beauty,West,Online,5,152.39,761.95,Cash,C8655
+T00922,5/11/2025,Bread,Groceries,South,Online,3,3781.32,11343.96,Credit Card,C3351
+T00923,12/25/2024,Shampoo,Beauty,West,Online,5,4713.25,23566.25,Credit Card,C3294
+T00924,10/8/2024,Coffee,Groceries,North,Offline,4,2681.61,10726.44,Cash,C9847
+T00925,3/18/2025,Lamp,Home & Kitchen,East,Offline,7,3532.72,24729.04,Credit Card,C3689
+T00926,4/14/2025,Smart Watch,Electronics,East,Online,1,2045.84,2045.84,Net Banking,C1144
+T00927,5/11/2024,Rice,Groceries,South,Offline,10,371.16,3711.6,Net Banking,C4675
+T00928,12/21/2024,Cookware Set,Home & Kitchen,South,Online,7,114.64,802.48,Net Banking,C2661
+T00929,10/15/2024,Face Wash,Beauty,North,Online,2,186.13,372.26,UPI,C4429
+T00930,12/27/2024,Water Bottle,Home & Kitchen,East,Offline,3,4246.51,12739.53,Net Banking,C1139
+T00931,1/4/2025,Shampoo,Beauty,North,Online,6,580.45,3482.7,Cash,C8251
+T00932,1/16/2024,Mixer,Home & Kitchen,West,Online,5,1837.77,9188.85,Cash,C9999
+T00933,10/6/2024,Lamp,Home & Kitchen,West,Online,1,2358.49,2358.49,Credit Card,C4872
+T00934,5/1/2025,Perfume,Beauty,West,Online,7,1476.99,10338.93,Net Banking,C6696
+T00935,1/27/2024,Headphones,Electronics,South,Offline,3,4226.08,12678.24,Cash,C2639
+T00936,12/9/2024,Tablet,Electronics,North,Offline,4,2689.68,10758.72,UPI,C2799
+T00937,11/27/2024,Rice,Groceries,East,Online,1,2035.95,2035.95,Credit Card,C4250
+T00938,3/22/2024,Lamp,Home & Kitchen,East,Offline,6,2467.87,14807.22,Cash,C6239
+T00939,4/24/2024,T-Shirt,Clothing,South,Online,10,1895.74,18957.4,Net Banking,C7849
+T00940,5/5/2025,T-Shirt,Clothing,North,Online,2,1082.31,2164.62,Net Banking,C1421
+T00941,4/5/2024,Headphones,Electronics,North,Offline,8,4038.98,32311.84,UPI,C7555
+T00942,2/24/2024,Hoodie,Clothing,West,Online,6,1443.8,8662.8,UPI,C2929
+T00943,4/12/2025,Coffee,Groceries,North,Online,10,1782.1,17821,Cash,C9979
+T00944,5/13/2025,Bread,Groceries,South,Offline,9,646.71,5820.39,Net Banking,C7230
+T00945,7/10/2024,Cookware Set,Home & Kitchen,East,Online,6,695.3,4171.8,Cash,C9932
+T00946,5/13/2024,T-Shirt,Clothing,West,Online,2,114.41,228.82,Credit Card,C5400
+T00947,2/20/2025,Water Bottle,Home & Kitchen,North,Online,10,4978.43,49784.3,Cash,C6203
+T00948,2/9/2025,Smartphone,Electronics,East,Offline,9,4847.83,43630.47,Cash,C4477
+T00949,1/4/2025,Lamp,Home & Kitchen,South,Online,7,2660.02,18620.14,UPI,C7920
+T00950,4/2/2024,Conditioner,Beauty,South,Online,9,3581.15,32230.35,Net Banking,C7512
+T00951,10/6/2024,Tablet,Electronics,South,Offline,7,4566.78,31967.46,Credit Card,C5248
+T00952,3/19/2025,Smart Watch,Electronics,East,Offline,9,4056.99,36512.91,UPI,C8617
+T00953,3/26/2025,Perfume,Beauty,South,Offline,8,2894.23,23153.84,Cash,C3952
+T00954,4/23/2024,Jeans,Clothing,West,Offline,9,1782.23,16040.07,Cash,C1625
+T00955,9/19/2024,Face Wash,Beauty,East,Offline,1,3814.5,3814.5,Net Banking,C4586
+T00956,7/12/2024,Smartphone,Electronics,East,Online,2,4653.42,9306.84,Cash,C4084
+T00957,3/6/2025,Cookware Set,Home & Kitchen,North,Online,4,2241.52,8966.08,Credit Card,C1568
+T00958,11/29/2024,Milk,Groceries,West,Offline,6,2142.19,12853.14,UPI,C1464
+T00959,7/4/2024,Jeans,Clothing,East,Online,10,2839.69,28396.9,Cash,C4461
+T00960,4/22/2024,Tablet,Electronics,West,Online,1,1591.28,1591.28,UPI,C3743
+T00961,4/18/2025,Shoes,Clothing,South,Online,6,4169.64,25017.84,UPI,C6645
+T00962,1/9/2024,Headphones,Electronics,West,Online,10,4090.95,40909.5,UPI,C2825
+T00963,3/31/2025,Tablet,Electronics,North,Online,8,4325.64,34605.12,Net Banking,C9990
+T00964,8/2/2024,Shampoo,Beauty,East,Online,6,2227.13,13362.78,Credit Card,C2965
+T00965,9/8/2024,Lipstick,Beauty,North,Offline,4,1585.14,6340.56,Net Banking,C9327
+T00966,5/14/2025,Face Wash,Beauty,North,Offline,2,2329.9,4659.8,UPI,C8700
+T00967,3/15/2025,Eggs,Groceries,South,Online,8,3729.35,29834.8,Credit Card,C8658
+T00968,6/27/2024,Bread,Groceries,East,Online,7,528.12,3696.84,UPI,C8288
+T00969,4/18/2024,Face Wash,Beauty,North,Offline,6,4025.85,24155.1,UPI,C7533
+T00970,4/1/2025,Lipstick,Beauty,West,Offline,2,3716.26,7432.52,Credit Card,C3635
+T00971,5/5/2024,Bread,Groceries,East,Online,10,2625.87,26258.7,UPI,C8668
+T00972,3/21/2025,Headphones,Electronics,South,Offline,9,233.68,2103.12,Net Banking,C6452
+T00973,1/30/2025,Bread,Groceries,West,Offline,5,1392.36,6961.8,Net Banking,C5363
+T00974,8/14/2024,Laptop,Electronics,North,Online,1,4411.19,4411.19,UPI,C5708
+T00975,1/22/2024,T-Shirt,Clothing,East,Offline,7,4898.82,34291.74,Credit Card,C6858
+T00976,4/12/2025,T-Shirt,Clothing,South,Online,9,4372.71,39354.39,UPI,C7574
+T00977,8/28/2024,Coffee,Groceries,North,Online,5,2350.01,11750.05,UPI,C4470
+T00978,8/12/2024,Bread,Groceries,East,Offline,8,3183.16,25465.28,Credit Card,C6689
+T00979,3/4/2024,Eggs,Groceries,West,Online,7,4122.57,28857.99,UPI,C9672
+T00980,5/18/2024,Lipstick,Beauty,North,Offline,10,4788.69,47886.9,Net Banking,C3160
+T00981,8/31/2024,Water Bottle,Home & Kitchen,South,Offline,5,2608.66,13043.3,Net Banking,C7505
+T00982,3/11/2025,Milk,Groceries,South,Online,4,3469.12,13876.48,Net Banking,C7923
+T00983,12/7/2024,Bread,Groceries,South,Online,3,2043.04,6129.12,Net Banking,C8294
+T00984,11/15/2024,Tablet,Electronics,West,Offline,4,3684.21,14736.84,Credit Card,C9974
+T00985,1/16/2024,Laptop,Electronics,East,Offline,8,2948.37,23586.96,Net Banking,C7088
+T00986,9/8/2024,Jeans,Clothing,North,Online,7,3512.91,24590.37,Net Banking,C1740
+T00987,2/20/2025,Eggs,Groceries,North,Offline,9,2514.42,22629.78,Credit Card,C6285
+T00988,4/28/2024,Chair,Home & Kitchen,North,Offline,1,1297.67,1297.67,UPI,C9360
+T00989,12/22/2024,T-Shirt,Clothing,West,Offline,7,482.24,3375.68,Credit Card,C8722
+T00990,2/11/2025,Smartphone,Electronics,West,Online,8,3054.65,24437.2,Credit Card,C3265
+T00991,8/15/2024,Lamp,Home & Kitchen,North,Offline,7,1908.69,13360.83,Net Banking,C7077
+T00992,6/4/2024,Rice,Groceries,West,Offline,9,1726.4,15537.6,Cash,C5808
+T00993,8/8/2024,Shoes,Clothing,West,Offline,4,3293.73,13174.92,UPI,C8756
+T00994,1/21/2025,Rice,Groceries,South,Online,5,1357.89,6789.45,UPI,C2422
+T00995,3/13/2024,Jeans,Clothing,West,Online,10,3242.75,32427.5,Cash,C8841
+T00996,6/8/2024,T-Shirt,Clothing,East,Offline,6,1041.78,6250.68,Net Banking,C7913
+T00997,7/9/2024,Mixer,Home & Kitchen,South,Offline,2,1365.21,2730.42,UPI,C2767
+T00998,4/14/2024,Hoodie,Clothing,East,Online,1,4307.87,4307.87,Cash,C8878
+T00999,1/12/2024,Coffee,Groceries,South,Online,9,1896.89,17072.01,UPI,C7569
+T01000,9/1/2024,Face Wash,Beauty,West,Online,6,3193.39,19160.34,Cash,C5997
