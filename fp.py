@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-df = pd.read_csv("cowid-covid-data.csv")
+df = pd.read_csv("owid-covid-data.csv")
 
 df['date'] = pd.to_datetime(df['date'])
 

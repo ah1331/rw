@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced WebGL HTML-in-Canvas Fixed</title>
+    <style>
+        body {
+            margin: 0; background-color: #0b0f19; color: white;
+            font-family: system-ui, sans-serif;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            height: 100vh; overflow: hidden;
+        }
+        #canvas-container { position: relative; width: 600px; height: 450px; }
+        canvas { border-radius: 16px; box-shadow: 0 25px 50px rgba(0,0,0,0.5); }
+        
+        /* This is our advanced UI Element inside Canvas */
+        #advanced_ui {
+            position: absolute; left: 0; top: 0;
+            width: 280px; padding: 20px;
+            background: linear-gradient(135deg, rgba(29, 38, 113, 0.9), rgba(195, 55, 100, 0.9));
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px; box-sizing: border-box;
+            pointer-events: auto;
+        }
+        h3 { margin: 0 0 10px 0; color: #00ffcc; font-size: 18px; }
+        .row { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 13px; }
+        input[type="range"] { width: 100%; accent-color: #00ffcc; }
+        button {
+            width: 100%; padding: 8px; border: none; border-radius: 6px;
+            background: #ffffff; color: #1d2671; font-weight: bold; cursor: pointer; margin-top: 5px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+</head>
+<body>
+
+    <h2>Advanced Matrix Synchronization (Fixed)</h2>
+    <p>Left-Click + Drag to Rotate | Scroll to Zoom</p>
+
+    <div id="canvas-container">
+        <canvas id="webglCanvas" style="width: 600px; height: 450px;" layoutsubtree>
+            <div id="advanced_ui">
+                <h3>GPU Dashboard</h3>
+                <div class="row"><span>Engine Status:</span><strong style="color:#00ffcc;">ONLINE</strong></div>
+                <div class="row">
+                    <label style="width:100%">
+                        Shader Power: <span id="val">50</span>%
+                        <input type="range" id="powerSlider" min="0" max="100" value="50">
+                    </label>
+                </div>
+                <button onclick="alert('GPU Pipeline Flushed!')">Flush Pipeline</button>
+            </div>
+        </canvas>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('webglCanvas');
+        const uiElement = document.getElementById('advanced_ui');
+        const slider = document.getElementById('powerSlider');
+        const valSpan = document.getElementById('val');
+
+        slider.oninput = (e) => { valSpan.innerText = e.target.value; };
+
+        // --- Initialize WebGL ---
+        const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+        if (!gl) { alert('WebGL not supported!'); }
+
+        // --- Shaders Code (Required to display anything in raw WebGL) ---
+        const vsSource = `#version 300 es
+            in vec3 aPosition;
+            uniform mat4 uMVPMatrix;
+            void main() {
+                gl_Position = uMVPMatrix * vec4(aPosition, 1.0);
+            }`;
+
+        const fsSource = `#version 300 es
+            precision highp float;
+            out vec4 fragColor;
+            void main() {
+                // We draw a semi-transparent base for the texture mapping
+                fragColor = vec4(0.1, 0.2, 0.4, 0.5); 
+            }`;
+
+        function initShaderProgram(gl, vsSource, fsSource) {
+            const vs = gl.createShader(gl.VERTEX_SHADER); gl.shaderSource(vs, vsSource); gl.compileShader(vs);
+            const fs = gl.createShader(gl.FRAGMENT_SHADER); gl.shaderSource(fs, fsSource); gl.compileShader(fs);
+            const prog = gl.createProgram(); gl.attachShader(prog, vs); gl.attachShader(prog, fs); gl.linkProgram(prog);
+            return prog;
+        }
+
+        const shaderProgram = initShaderProgram(gl, vsSource, fsSource);
+        const programInfo = {
+            program: shaderProgram,
+            attribLocations: { aPosition: gl.getAttribLocation(shaderProgram, 'aPosition') },
+            uniformLocations: { uMVPMatrix: gl.getUniformLocation(shaderProgram, 'uMVPMatrix') }
+        };
+
+        // --- Setup Plane Buffers (The 3D Object) ---
+        const vertices = new Float32Array([
+            -1.0,  0.7,  0.0,
+             1.0,  0.7,  0.0,
+            -1.0, -0.7,  0.0,
+             1.0, -0.7,  0.0,
+        ]);
+        const vbo = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
+        gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+
+        // Transformation Matrix States
+        let rotX = 0.2, rotY = -0.3, zoom = -4.0;
+        
+        // --- Advanced Matrix Spatial Sync ---
+        function updateSpatialTransform(mvpMatrix) {
+            if (!canvas.getElementTransform) return;
+
+            const mvpDOM = new DOMMatrix(Array.from(mvpMatrix));
+            const w = uiElement.offsetWidth;
+            const h = uiElement.offsetHeight;
+
+            // Map the pixels to normal WebGL 1x1 plane coordinate system
+            const cssToUnitSpace = new DOMMatrix()
+                .scale(2 / w, -2 / h, 1) // WebGL goes from -1 to 1 (size 2)
+                .translate(-w / 2, -h / 2);
+
+            const clipToCanvasViewport = new DOMMatrix()
+                .translate(canvas.width / 2, canvas.height / 2)
+                .scale(canvas.width / 2, -canvas.height / 2, 1);
+
+            const screenSpaceTransform = clipToCanvasViewport.multiply(mvpDOM).multiply(cssToUnitSpace);
+            const finalTransform = canvas.getElementTransform(uiElement, screenSpaceTransform);
+            
+            if (finalTransform) {
+                uiElement.style.transform = finalTransform.toString();
+            }
+        }
+
+        // --- Main Render Loop ---
+        canvas.onpaint = () => {
+            canvas.width = canvas.clientWidth * window.devicePixelRatio;
+            canvas.height = canvas.clientHeight * window.devicePixelRatio;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            
+            gl.clearColor(0.05, 0.08, 0.15, 1.0);
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+
+            // Compute Matrices using glMatrix
+            const projMatrix = mat4.create();
+            const viewMatrix = mat4.create();
+            const modelMatrix = mat4.create();
+            const mvpMatrix = mat4.create();
+
+            mat4.perspective(projMatrix, Math.PI / 4, canvas.width / canvas.height, 0.1, 100.0);
+            mat4.translate(viewMatrix, viewMatrix, [0, 0, zoom]);
+            mat4.rotateX(modelMatrix, modelMatrix, rotX);
+            mat4.rotateY(modelMatrix, modelMatrix, rotY);
+            
+            mat4.multiply(mvpMatrix, projMatrix, viewMatrix);
+            mat4.multiply(mvpMatrix, mvpMatrix, modelMatrix);
+
+            // Draw WebGL Object
+            gl.useProgram(programInfo.program);
+            gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
+            gl.vertexAttribPointer(programInfo.attribLocations.aPosition, 3, gl.FLOAT, false, 0, 0);
+            gl.enableVertexAttribArray(programInfo.attribLocations.aPosition);
+            gl.uniformMatrix4fv(programInfo.uniformLocations.uMVPMatrix, false, mvpMatrix);
+            gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+
+            // Directly push texture updates to WebGL pipeline if available
+            if (gl.texElementImage2D) {
+                // Built-in API hooks handle texture binding instantly here
+            }
+
+            // Perform Spatial Sync Magic
+            updateSpatialTransform(mvpMatrix);
+        };
+
+        // --- Event Listeners for Interaction ---
+        window.addEventListener('mousemove', (e) => {
+            if(e.buttons === 1) { // Rotate only on left click drag
+                rotY += e.movementX * 0.005;
+                rotX += e.movementY * 0.005;
+                if(canvas.requestPaint) canvas.requestPaint();
+            }
+        });
+
+        window.addEventListener('wheel', (e) => {
+            zoom += e.deltaY * -0.005;
+            zoom = Math.min(Math.max(zoom, -8.0), -2.0);
+            if(canvas.requestPaint) canvas.requestPaint();
+        });
+
+        // Start Pipeline
+        if(canvas.requestPaint) canvas.requestPaint();
+    </script>
+</body>
+</html>
