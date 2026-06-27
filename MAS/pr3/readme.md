@@ -1,6 +1,14 @@
 # 📊 Spread Locator: A Statistical Distribution Analysis Model
 
+## 📂 Project Files
 
+| File | Description |
+|------|-------------|
+| 📊 **Dataset** | [spread_locator_dataset.xlsx](spread_locator_dataset.xlsx) |
+| 📓 **Practical Notebook** | [pr3.ipynb](pr3.ipynb) |
+| 📘 **Theory PDF** | [Theoretical-Foundation.pdf](Theoretical-Foundation.pdf) |
+| 📄 **README** | Project Documentation |
+---
 # 📖 Project Overview
 
 **Spread Locator** is a statistical analysis project that explores customer transaction behavior using various probability distributions and statistical techniques.
