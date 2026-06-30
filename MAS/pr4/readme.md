@@ -78,18 +78,6 @@ The notebook covers vector operations, matrix computations, covariance analysis,
 
 ---
 
-# 📂 Project Structure
-
-```
-Linear-Algebra-for-Machine-Learning/
-│
-├── Linear_Algebra.ipynb
-├── README.md
-└── requirements.txt
-```
-
----
-
 # 🚀 Key Concepts Implemented
 
 - Vector Operations
