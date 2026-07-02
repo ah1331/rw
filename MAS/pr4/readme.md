@@ -8,7 +8,7 @@ Welcome to the **Calculative Foundation** project repository! This project demon
 
 Here is a conceptual illustration of how the linear algebra topics in this project connect with student data:
 
-![Calculative Foundation Infographic](linear_algebra_infographic.png)
+![Calculative Foundation Infographic](images/linear_algebra_infographic.png)
 
 ---
 
@@ -38,7 +38,7 @@ Here is a conceptual illustration of how the linear algebra topics in this proje
 Each student's subject scores are mapped as a vector in $N$-dimensional space:
 $$\vec{v} = [x_{\text{Math}}, y_{\text{Science}}, z_{\text{English}}, \dots]$$
 
-![Vector Fundamentals Concept Diagram](vector_fundamentals_diagram.png)
+![Vector Fundamentals Concept Diagram](images/vector_fundamentals_diagram.png)
 
 *   **Vector Norms**:
     *   **L1 Norm (Manhattan Norm)**: Calculated as $\sum |x_i|$, representing the total absolute points scored across all subjects.
@@ -51,7 +51,7 @@ $$\vec{v} = [x_{\text{Math}}, y_{\text{Science}}, z_{\text{English}}, \dots]$$
 ### 🧮 Part B: Matrix Operations
 We compile student scores into a Student-Subject Matrix $A \in \mathbb{R}^{M \times N}$, where $M$ is the number of students and $N$ is the number of subjects.
 
-![Matrix Operations Concept Diagram](matrix_operations_diagram.png)
+![Matrix Operations Concept Diagram](images/matrix_operations_diagram.png)
 
 *   **Matrix Multiplication**: Computes interaction matrices (e.g., $A \cdot A^T$ to find student-to-student similarity).
 *   **Transpose ($A^T$)**: Swaps rows and columns to enable subject-centric analysis.
@@ -61,7 +61,7 @@ We compile student scores into a Student-Subject Matrix $A \in \mathbb{R}^{M \ti
 ### 🌐 Part C: Linear Transformations & Geometry
 Understanding dimensions in academic records:
 
-![Dimensions & Geometry Concept Diagram](dimensions_geometry_diagram.png)
+![Dimensions & Geometry Concept Diagram](images/dimensions_geometry_diagram.png)
 
 *   **Line (1D Space)**: Representing students with only 1 subject score (a single axis).
 *   **Plane (2D Space)**: Representing student positions based on 2 subjects (Math vs. Science).
@@ -73,7 +73,7 @@ Understanding dimensions in academic records:
     $$\Sigma \vec{v} = \lambda \vec{v}$$
     This exposes the directions (eigenvectors) along which the student variance is maximized.
 
-![Matrix Decompositions Concept Diagram](matrix_decompositions_diagram.png)
+![Matrix Decompositions Concept Diagram](images/matrix_decompositions_diagram.png)
 
 *   **LU Decomposition**: Factorizes the matrix into Lower ($L$) and Upper ($U$) triangular components:
     $$P \cdot A = L \cdot U$$
@@ -86,7 +86,7 @@ Understanding dimensions in academic records:
 *   **Principal Component Analysis (PCA)**: Standardizes the dataset and projects the 5-subject data onto 2 orthogonal principal components (PC1 & PC2) while preserving maximum variance.
 *   **Linear Discriminant Analysis (LDA)**: Supervised dimensionality reduction that projects the dataset onto 1 dimension (LD1) to maximize class separation between "Above Average" and "Below Average" students.
 
-![Dimensionality Reduction Concept Diagram](dimensionality_reduction_diagram.png)
+![Dimensionality Reduction Concept Diagram](images/dimensionality_reduction_diagram.png)
 
 ---
 
