@@ -66,9 +66,9 @@ This task describes the average performance and the spread of scores for Mathema
 Probability basics evaluate the cohort's baseline success and examine the impact of studying habits.
 
 #### 📊 Computed Metrics
-*   **Baseline Passing Probability**: $P(\text{Pass\_Fail} = 1) = 84.22\%$
+*   **Baseline Passing Probability**: $P(\text{Passing}) = 84.22\%$
 *   **Conditional Probability**: 
-    $$P(\text{Pass\_Fail} = 1 \mid \text{Hours\_Studied} > 5) = \frac{4118}{270 + 4118} = 93.85\%$$
+    $$P(\text{Passing} \mid \text{Hours Studied} > 5) = \frac{4118}{270 + 4118} = 93.85\%$$
 
 #### 📊 Contingency Table
 | Pass / Fail | Studied $\le$ 5 Hours (False) | Studied > 5 Hours (True) |
