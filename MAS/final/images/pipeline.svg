@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="cardBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <linearGradient id="cardPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6d28d9"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="cardTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0e7490"/>
+      <stop offset="100%" style="stop-color:#164e63"/>
+    </linearGradient>
+    <linearGradient id="cardGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46"/>
+      <stop offset="100%" style="stop-color:#047857"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg2)" rx="16"/>
+
+  <!-- Section title -->
+  <text x="450" y="38" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#94a3b8" letter-spacing="3" font-weight="600">
+    🎯  PROJECT OBJECTIVES
+    <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- Arrow flow connectors -->
+  <!-- Arrow 1->2 -->
+  <line x1="228" y1="155" x2="272" y2="155" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 3" opacity="0">
+    <animate attributeName="opacity" values="0;0.8" dur="0.4s" begin="1.6s" fill="freeze"/>
+  </line>
+  <polygon points="272,151 282,155 272,159" fill="#3b82f6" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.6s" fill="freeze"/>
+  </polygon>
+  <!-- Arrow 2->3 -->
+  <line x1="448" y1="155" x2="492" y2="155" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 3" opacity="0">
+    <animate attributeName="opacity" values="0;0.8" dur="0.4s" begin="2.0s" fill="freeze"/>
+  </line>
+  <polygon points="492,151 502,155 492,159" fill="#3b82f6" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.0s" fill="freeze"/>
+  </polygon>
+  <!-- Arrow 3->4 -->
+  <line x1="668" y1="155" x2="712" y2="155" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 3" opacity="0">
+    <animate attributeName="opacity" values="0;0.8" dur="0.4s" begin="2.4s" fill="freeze"/>
+  </line>
+  <polygon points="712,151 722,155 712,159" fill="#3b82f6" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.4s" fill="freeze"/>
+  </polygon>
+
+  <!-- ====== CARD 1: Descriptive Statistics ====== -->
+  <g transform="translate(25, 65)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+    <rect width="200" height="180" rx="14" fill="url(#cardBlue)" filter="url(#shadow)"/>
+    <!-- Shimmer highlight -->
+    <rect width="200" height="3" rx="1" fill="#60a5fa" opacity="0.5" y="0"/>
+    <!-- Animated bar chart icon -->
+    <rect x="25" y="28" width="12" height="30" fill="#bfdbfe" rx="2">
+      <animate attributeName="height" values="0;30" dur="0.8s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="y" values="58;28" dur="0.8s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <rect x="42" y="20" width="12" height="38" fill="#93c5fd" rx="2">
+      <animate attributeName="height" values="0;38" dur="0.8s" begin="0.9s" fill="freeze"/>
+      <animate attributeName="y" values="58;20" dur="0.8s" begin="0.9s" fill="freeze"/>
+    </rect>
+    <rect x="59" y="38" width="12" height="20" fill="#bfdbfe" rx="2">
+      <animate attributeName="height" values="0;20" dur="0.8s" begin="1.0s" fill="freeze"/>
+      <animate attributeName="y" values="58;38" dur="0.8s" begin="1.0s" fill="freeze"/>
+    </rect>
+    <rect x="76" y="14" width="12" height="44" fill="#60a5fa" rx="2">
+      <animate attributeName="height" values="0;44" dur="0.8s" begin="1.1s" fill="freeze"/>
+      <animate attributeName="y" values="58;14" dur="0.8s" begin="1.1s" fill="freeze"/>
+    </rect>
+    <line x1="15" y1="58" x2="100" y2="58" stroke="#93c5fd" stroke-width="1" opacity="0.5"/>
+    <!-- Label -->
+    <text x="100" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#bfdbfe" font-weight="700">Descriptive Stats</text>
+    <text x="100" y="103" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#93c5fd">Mean · Median · Mode</text>
+    <text x="100" y="118" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#93c5fd">Variance · Std Deviation</text>
+    <!-- Result badge -->
+    <rect x="30" y="135" width="140" height="30" rx="15" fill="#1e3a8a"/>
+    <text x="100" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#93c5fd">Math Mean: 64.40 ✓</text>
+  </g>
+
+  <!-- ====== CARD 2: Probability ====== -->
+  <g transform="translate(285, 65)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+    <rect width="200" height="180" rx="14" fill="url(#cardPurple)" filter="url(#shadow)"/>
+    <rect width="200" height="3" rx="1" fill="#a78bfa" opacity="0.5" y="0"/>
+    <!-- Animated pie chart -->
+    <circle cx="60" cy="42" r="28" fill="none" stroke="#4c1d95" stroke-width="20"/>
+    <circle cx="60" cy="42" r="28" fill="none" stroke="#a78bfa" stroke-width="20"
+      stroke-dasharray="149 28" stroke-dashoffset="0" transform="rotate(-90 60 42)">
+      <animate attributeName="stroke-dasharray" values="0 177;149 28" dur="1.2s" begin="1.2s" fill="freeze"/>
+    </circle>
+    <text x="60" y="48" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="white" font-weight="700">84%</text>
+    <!-- Label -->
+    <text x="100" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#ddd6fe" font-weight="700">Probability</text>
+    <text x="100" y="103" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#c4b5fd">Baseline Pass: 84.22%</text>
+    <text x="100" y="118" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#c4b5fd">Conditional Probability</text>
+    <!-- Result badge -->
+    <rect x="30" y="135" width="140" height="30" rx="15" fill="#3b0764"/>
+    <text x="100" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#c4b5fd">P(Pass|Hours>5)=93.85%</text>
+  </g>
+
+  <!-- ====== CARD 3: Distribution & Viz ====== -->
+  <g transform="translate(505, 65)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+    <rect width="200" height="180" rx="14" fill="url(#cardTeal)" filter="url(#shadow)"/>
+    <rect width="200" height="3" rx="1" fill="#67e8f9" opacity="0.5" y="0"/>
+    <!-- Animated bell curve -->
+    <path d="M 10 60 Q 50 15, 60 12 Q 70 9, 80 12 Q 90 15 130 60" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-dasharray="160" stroke-dashoffset="160">
+      <animate attributeName="stroke-dashoffset" values="160;0" dur="1.2s" begin="1.6s" fill="freeze"/>
+    </path>
+    <line x1="10" y1="60" x2="130" y2="60" stroke="#67e8f9" stroke-width="1" opacity="0.4"/>
+    <!-- Label -->
+    <text x="100" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#cffafe" font-weight="700">Distribution</text>
+    <text x="100" y="103" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5f3fc">Histogram · Normal Curve</text>
+    <text x="100" y="118" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#a5f3fc">Skewness · Kurtosis · Q-Q</text>
+    <!-- Result badge -->
+    <rect x="30" y="135" width="140" height="30" rx="15" fill="#083344"/>
+    <text x="100" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#a5f3fc">Kurtosis: -0.7791 ✓</text>
+  </g>
+
+  <!-- ====== CARD 4: Linear Algebra ====== -->
+  <g transform="translate(725, 65)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.6s" fill="freeze"/>
+    <rect width="148" height="180" rx="14" fill="url(#cardGreen)" filter="url(#shadow)"/>
+    <rect width="148" height="3" rx="1" fill="#6ee7b7" opacity="0.5" y="0"/>
+    <!-- Animated vectors -->
+    <line x1="20" y1="60" x2="20" y2="60" stroke="#6ee7b7" stroke-width="2">
+      <animate attributeName="x2" values="20;95" dur="0.8s" begin="2.0s" fill="freeze"/>
+      <animate attributeName="y2" values="60;12" dur="0.8s" begin="2.0s" fill="freeze"/>
+    </line>
+    <polygon points="95,12 102,22 88,18" fill="#6ee7b7" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.8s" fill="freeze"/>
+    </polygon>
+    <line x1="20" y1="60" x2="20" y2="60" stroke="#34d399" stroke-width="2">
+      <animate attributeName="x2" values="20;100" dur="0.8s" begin="2.3s" fill="freeze"/>
+      <animate attributeName="y2" values="60;18" dur="0.8s" begin="2.3s" fill="freeze"/>
+    </line>
+    <polygon points="100,18 106,28 92,24" fill="#34d399" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.1s" fill="freeze"/>
+    </polygon>
+    <!-- Angle arc -->
+    <path d="M 35 60 Q 40 50, 45 52" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.2s" fill="freeze"/>
+    </path>
+    <text x="48" y="56" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#fbbf24" opacity="0">θ
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.2s" fill="freeze"/>
+    </text>
+    <!-- Label -->
+    <text x="74" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#a7f3d0" font-weight="700">Linear Algebra</text>
+    <text x="74" y="103" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#6ee7b7">Vectors · Norms · Dot</text>
+    <text x="74" y="118" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#6ee7b7">Product · Angles</text>
+    <!-- Result badge -->
+    <rect x="14" y="135" width="120" height="30" rx="15" fill="#022c22"/>
+    <text x="74" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#6ee7b7">Angle: 8.54° ✓</text>
+  </g>
+
+  <!-- Step labels at bottom -->
+  <text x="125" y="268" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#475569">STEP 1</text>
+  <text x="385" y="268" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#475569">STEP 2</text>
+  <text x="605" y="268" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#475569">STEP 3</text>
+  <text x="800" y="268" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#475569">STEP 4</text>
+</svg>
