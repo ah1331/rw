@@ -1,0 +1,602 @@
+[
+  {
+    "CustomerID": 1001,
+    "PreferredPayment": "UPI",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1002,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1003,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-04"
+  },
+  {
+    "CustomerID": 1004,
+    "PreferredPayment": "UPI",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-13"
+  },
+  {
+    "CustomerID": 1005,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-10"
+  },
+  {
+    "CustomerID": 1006,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-07"
+  },
+  {
+    "CustomerID": 1007,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1008,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-10"
+  },
+  {
+    "CustomerID": 1009,
+    "PreferredPayment": "UPI",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1010,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1011,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1012,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-04"
+  },
+  {
+    "CustomerID": 1013,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1014,
+    "PreferredPayment": "Card",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-07"
+  },
+  {
+    "CustomerID": 1015,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-10"
+  },
+  {
+    "CustomerID": 1016,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1017,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1018,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1019,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1020,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-13"
+  },
+  {
+    "CustomerID": 1021,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1022,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1023,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1024,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-13"
+  },
+  {
+    "CustomerID": 1025,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1026,
+    "PreferredPayment": "Cash",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1027,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1028,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-09"
+  },
+  {
+    "CustomerID": 1029,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1030,
+    "PreferredPayment": "UPI",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1031,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1032,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-04"
+  },
+  {
+    "CustomerID": 1033,
+    "PreferredPayment": "UPI",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1034,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1035,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-09"
+  },
+  {
+    "CustomerID": 1036,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1037,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1038,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-08"
+  },
+  {
+    "CustomerID": 1039,
+    "PreferredPayment": "Cash",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-06"
+  },
+  {
+    "CustomerID": 1040,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1041,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-07"
+  },
+  {
+    "CustomerID": 1042,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1043,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1044,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-06"
+  },
+  {
+    "CustomerID": 1045,
+    "PreferredPayment": "Cash",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1046,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1047,
+    "PreferredPayment": "UPI",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1048,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1049,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-06"
+  },
+  {
+    "CustomerID": 1050,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-08"
+  },
+  {
+    "CustomerID": 1051,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1052,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-08"
+  },
+  {
+    "CustomerID": 1053,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1054,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1055,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1056,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-04"
+  },
+  {
+    "CustomerID": 1057,
+    "PreferredPayment": "UPI",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1058,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-15"
+  },
+  {
+    "CustomerID": 1059,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1060,
+    "PreferredPayment": "Cash",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1061,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-04"
+  },
+  {
+    "CustomerID": 1062,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1063,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-15"
+  },
+  {
+    "CustomerID": 1064,
+    "PreferredPayment": "Card",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1065,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-15"
+  },
+  {
+    "CustomerID": 1066,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1067,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-10"
+  },
+  {
+    "CustomerID": 1068,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-08"
+  },
+  {
+    "CustomerID": 1069,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-06"
+  },
+  {
+    "CustomerID": 1070,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-15"
+  },
+  {
+    "CustomerID": 1071,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1072,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-07"
+  },
+  {
+    "CustomerID": 1073,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1074,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-08"
+  },
+  {
+    "CustomerID": 1075,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1076,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1077,
+    "PreferredPayment": "Card",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-10"
+  },
+  {
+    "CustomerID": 1078,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1079,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-09"
+  },
+  {
+    "CustomerID": 1080,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1081,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1082,
+    "PreferredPayment": "Card",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-08"
+  },
+  {
+    "CustomerID": 1083,
+    "PreferredPayment": "Cash",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-10"
+  },
+  {
+    "CustomerID": 1084,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1085,
+    "PreferredPayment": "Cash",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1086,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1087,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1088,
+    "PreferredPayment": "UPI",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1089,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-12"
+  },
+  {
+    "CustomerID": 1090,
+    "PreferredPayment": "UPI",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-02"
+  },
+  {
+    "CustomerID": 1091,
+    "PreferredPayment": "UPI",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1092,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-01"
+  },
+  {
+    "CustomerID": 1093,
+    "PreferredPayment": "Cash",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-05"
+  },
+  {
+    "CustomerID": 1094,
+    "PreferredPayment": "Cash",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-07"
+  },
+  {
+    "CustomerID": 1095,
+    "PreferredPayment": "Card",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-09"
+  },
+  {
+    "CustomerID": 1096,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1097,
+    "PreferredPayment": "Card",
+    "Membership": "Gold",
+    "LastLogin": "2026-07-03"
+  },
+  {
+    "CustomerID": 1098,
+    "PreferredPayment": "UPI",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-14"
+  },
+  {
+    "CustomerID": 1099,
+    "PreferredPayment": "NetBanking",
+    "Membership": "Bronze",
+    "LastLogin": "2026-07-11"
+  },
+  {
+    "CustomerID": 1100,
+    "PreferredPayment": "Card",
+    "Membership": "Silver",
+    "LastLogin": "2026-07-15"
+  }
+]
