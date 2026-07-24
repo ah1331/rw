@@ -148,3 +148,15 @@ The resulting report summarizes:
 * **[`README.md`](README.md)**: Detailed project documentation following standard repository format.
 * **`data/`**: Subdirectory containing raw data assets (`customer_data.csv`, `customer_extra.json`, `customer_orders.db`).
 * **`data_profiling_report.html`**: Exported interactive HTML report summarizing dataset profiling metrics.
+
+---
+
+# 👨‍💻 Author
+
+**Ansh Patoliya**
+
+**B.Tech Student | Data Analyst | AI/ML Enthusiast**
+
+---
+
+# ⭐ If you found this project useful, don't forget to Star ⭐ the repository!
