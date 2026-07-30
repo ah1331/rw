@@ -9,6 +9,7 @@ This module contains the complete data cleaning, missing value imputation, outli
 - 📓 **[data_cleanser.ipynb](data_cleanser.ipynb)**: Primary Jupyter Notebook executing all assignment tasks in Part A, Part B, and Part C.
 - 📊 **[data_profiling_report.html](data_profiling_report.html)**: Interactive YData Profiling HTML Report.
 - 📄 **[Part_C_Question_7_Report.pdf](Part_C_Question_7_Report.pdf)**: Evaluation PDF Report.
+- 🎬 **[Project Explanation Video](video.mp4)**: Video walkthrough explaining data cleaning & outlier handling methods.
 - 💾 **[patient_health_records_1000_rows.csv](patient_health_records_1000_rows.csv)**: Input dataset (1,000 patient records).
 
 ---
@@ -61,5 +62,3 @@ This module contains the complete data cleaning, missing value imputation, outli
 **B.Tech Student | Data Analyst | AI/ML Enthusiast**
 
 ---
-
-# ⭐ If you found this project useful, don't forget to Star ⭐ the repository!
