@@ -47,10 +47,17 @@ Bayes' Theorem updates the prior belief regarding message authenticity when new 
 $$P(\text{Spam} \mid \mathbf{X}) = \frac{P(\mathbf{X} \mid \text{Spam}) \cdot P(\text{Spam})}{P(\mathbf{X})}$$
 
 Empirical calculations on our dataset confirm:
-- **Prior $P(\text{Spam})$:** $0.1871$ (18.71%)
-- **Likelihood $P(\text{spam\_keyword} > 0 \mid \text{Spam})$:** $0.7657$ (76.57%)
-- **Likelihood $P(\text{spam\_keyword} > 0 \mid \text{Ham})$:** $0.0000$ (0.00%)
-- **Posterior $P(\text{Spam} \mid \text{has spam keyword})$:** **$1.0000$ ($100.0\%$)**
+
+- **Prior Probability:**
+  $$P(\text{Spam}) = 0.1871 \quad (18.71\%)$$
+  $$P(\text{Ham}) = 0.8129 \quad (81.29\%)$$
+
+- **Likelihood:**
+  $$P(\text{spam\_keyword} > 0 \mid \text{Spam}) = 0.7657 \quad (76.57\%)$$
+  $$P(\text{spam\_keyword} > 0 \mid \text{Ham}) = 0.0000 \quad (0.00\%)$$
+
+- **Posterior Probability (Bayes' Theorem):**
+  $$P(\text{Spam} \mid \text{spam\_keyword} > 0) = 1.0000 \quad (100.0\%)$$
 
 > **Theoretical Insight:** Even though Naive Bayes assumes feature independence (which text features violate), it achieves 100% predictive accuracy because classification depends on rank order ($\arg\max P$), not perfectly calibrated probabilities.
 
